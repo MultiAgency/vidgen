@@ -18,7 +18,12 @@ export type RichLine = {
   text: string;
   mono?: boolean;
   color?: string;
-  /** Line appears at this anchor (typed-on reveals). */
+  /** Per-line font size (e.g. mono sub-lines under a title). */
+  size?: number;
+  /** Extra space above this line (a title/body separator). */
+  gap?: number;
+  align?: "left" | "center";
+  /** Line appears at this anchor (typed-on reveals; the card grows). */
   at?: Anchor;
 };
 

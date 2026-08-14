@@ -12,9 +12,7 @@ import {
 import { IconOrEmoji } from "../components/icons";
 import { smooth } from "../components/motion";
 import { MASCOT_BOTTOM_FRAC, MASCOT_HEIGHT_FRAC, MASCOT_LEFT_FRAC } from "../layout";
-import { Timings } from "../posts";
 import { COLORS, FONTS } from "../theme";
-import { AUDIO_START } from "../timing";
 
 /** One-shot sound effect at `at` seconds (pop / whoosh / stamp / ding). */
 export const Sfx: React.FC<{ name: string; at: number; volume?: number }> = ({
@@ -33,23 +31,9 @@ export const Sfx: React.FC<{ name: string; at: number; volume?: number }> = ({
 };
 
 // ── Word anchoring ──────────────────────────────────────────────────────────
-// Scenes anchor every beat to the voiceover words so re-voicing a script can
-// never desync the choreography. Throws when the pattern is missing so a
-// script edit that breaks a scene fails loudly at build time.
-export const wordTime = (
-  timings: Timings,
-  pattern: RegExp,
-  opts: { nth?: number; offset?: number } = {},
-): number => {
-  const matches = timings.words.filter((w) => pattern.test(w.text));
-  if (matches.length === 0) {
-    throw new Error(`scene anchor not found: ${pattern}`);
-  }
-  const nth = opts.nth ?? 0;
-  const w = matches[nth < 0 ? matches.length + nth : nth];
-  if (!w) throw new Error(`scene anchor ${pattern} has no match #${opts.nth}`);
-  return AUDIO_START + w.start + (opts.offset ?? 0);
-};
+// wordTime lives in resolve.ts (the pure compiler core); re-exported here so
+// hand scenes keep their single props import.
+export { wordTime } from "./resolve";
 
 // ── Layout landmarks (16:9, 1920×1080) ─────────────────────────────────────
 // Derived from the same constants MascotPost renders with (src/layout.ts) —

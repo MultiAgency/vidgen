@@ -1,0 +1,38 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # lint:claims resolves claim sources against ../ironclaw, so the kit
+      # checks out into a subdirectory with the ironclaw source beside it.
+      - uses: actions/checkout@v4
+        with:
+          path: vidgen
+      - uses: actions/checkout@v4
+        with:
+          repository: nearai/ironclaw
+          path: ironclaw
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: vidgen/package-lock.json
+      - run: npm ci
+        working-directory: vidgen
+      - name: types
+        run: npx tsc --noEmit
+        working-directory: vidgen
+      - name: compiler tests
+        run: npm test
+        working-directory: vidgen
+      - name: claims pinned to ironclaw source
+        run: npm run lint:claims
+        working-directory: vidgen
+      # npm run qa / qa:frames need rendered outputs (out/ is untracked) and
+      # a Chrome + ffmpeg render pass — they stay part of the local ship gate.

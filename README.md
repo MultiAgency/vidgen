@@ -12,8 +12,10 @@ posts/NNN-slug.json          script, walkthrough, claims manifest
         ▼                                                delete the mp3 to re-voice)
 public/audio/NNN-slug.{mp3,words.json}
         │
-        ▼  src/scenes/SceneNNN.tsx — beats via wordTime(timings, /regex/)
-           (re-voicing re-anchors everything; a missing anchor throws at render)
+        ▼  src/scenes/data/NNN.ts — the scene as declarative beats
+           (word-anchored via {word: "^regex$"}; re-voicing re-anchors
+           everything; a missing anchor throws at render; bespoke visuals
+           register in src/scenes/custom/NNN.tsx)
         │
         ▼  npm run ship -- NNN-slug   (or --all)
            render → loudnorm (canonical chain lives ONLY in scripts/ship.mjs)
@@ -25,6 +27,35 @@ out/NNN-slug.mp4             the shippable final
 
 Also: `npm run lint:claims` — posts carry `claims[] {text, source}` pinned to
 paths in `../ironclaw`; a dead source path fails the build.
+
+## Scenes as data
+
+New scenes are declarative: a typed data module (`src/scenes/data/NNN.ts`,
+`satisfies SceneSpec`) compiled by `fromSpec()` into the same
+`(timings) => SceneBuild` contract hand scenes use. 097 and 104 are the
+proof — both converted and verified **bit-identical** to their hand-written
+TSX before the TSX was deleted.
+
+- **Anchors**: `{word: "^regex$", nth?, offset?}` against the voiceover words
+  (fail-loud), `{ref: beatId, offset}` for beat-relative timing, `{at: s}`
+  as the discouraged absolute escape.
+- **Beats** `{id, in, out, slot, prop, note}` — prop kinds: card (states +
+  RichLines with mono/color/size/gap/align and typed-on reveals), chip,
+  issue, footage, clip (`hideMascot: true` auto-pairs the hide cue),
+  caught, swatted, sfx, custom.
+- **Slots** (`src/scenes/stage.ts`): named zones replace raw x/y; the
+  compiler's overlap checker throws at build time when interval-intersecting
+  beats claim intersecting slots or the reserved caption band. Point slots
+  (mascot landmarks) are exempt; fading props don't occupy their last 0.5s.
+- **Customs**: per-scene registry (`src/scenes/custom/NNN.tsx`) for visuals
+  the schema shouldn't absorb; params carry anchors that arrive resolved.
+  A custom used by a second scene is a candidate for promotion to a prop
+  kind. Sizing rule: a scene needing more than ~4 customs means the schema
+  is missing a kind.
+
+The compiler core (anchor resolution, overlap checking, cue pairing) is
+pure and lives in `src/scenes/resolve.ts` — `npm test` covers it. The ten
+remaining hand TSX scenes convert on-touch only.
 
 ## The mascot
 

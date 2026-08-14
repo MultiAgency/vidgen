@@ -10,7 +10,8 @@ import { buildScene100 } from "./Scene100";
 import { buildScene101 } from "./Scene101";
 import { buildScene102 } from "./Scene102";
 import { buildScene103 } from "./Scene103";
-import { buildScene104 } from "./Scene104";
+import { scene104 } from "./data/104";
+import { CUSTOM_104 } from "./custom/104";
 import { buildScene106 } from "./Scene106";
 import { buildScene107 } from "./Scene107";
 import { buildScene108 } from "./Scene108";
@@ -40,7 +41,7 @@ export const SCENES: Record<string, (timings: Timings) => SceneBuild> = {
   "101-safe-server-commands": buildScene101,
   "102-release-tag-fanout": buildScene102,
   "103-explain-any-codebase": buildScene103,
-  "104-dev-workflow": buildScene104,
+  "104-dev-workflow": fromSpec(scene104, CUSTOM_104),
   "106-skills-tools-use-cases": buildScene106,
   "107-why-tee": buildScene107,
   "108-architecture-reborn": buildScene108,

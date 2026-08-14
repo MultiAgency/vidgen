@@ -9,7 +9,7 @@ const defineSlots = <T extends Record<string, Rect>>(s: T): { [K in keyof T]: Re
 
 export const SLOTS = defineSlots({
   /** FootagePanel home: the real-console hero. */
-  "hero-panel": { x: 400, y: 100, w: 1280, h: 780 },
+  "hero-panel": { x: 400, y: 110, w: 1280, h: 780 },
   /** Label chips above the hero panel — legal only during focus windows. */
   "surfaces-strip": { x: 400, y: 10, w: 1280, h: 90 },
   "top-right-card": { x: 1340, y: 190, w: 440, h: 220 },
@@ -17,9 +17,10 @@ export const SLOTS = defineSlots({
   "center-low": { x: 680, y: 560, w: 560, h: 200 },
   "beside-mascot": { x: 760, y: 640, w: 480, h: 160 },
   "chat-bubble": { x: 1080, y: 580, w: 420, h: 280 },
-  "stage-right-high": { x: 1060, y: 280, w: 600, h: 300 },
+  "stage-right-high": { x: 1080, y: 300, w: 560, h: 240 },
   "door-stage": { x: 980, y: 280, w: 720, h: 480 },
-  "stage-right-low": { x: 900, y: 620, w: 620, h: 220 },
+  "stage-right-low": { x: 910, y: 630, w: 600, h: 220 },
+  "high-wide": { x: 800, y: 210, w: 700, h: 240 },
   "pipeline-band": { x: 860, y: 620, w: 1000, h: 220 },
   "stage-mid-low": { x: 1130, y: 700, w: 340, h: 170 },
   /** Mascot landmark point-slots — exempt from overlap checking. */

@@ -13,18 +13,17 @@ import {
   Sfx,
   SwattedIcon,
   useT,
-  wordTime,
   AT,
 } from "./props";
-import { Anchor, Beat, CardState, RichLine, SceneSpec } from "./schema";
-import { POINT_SLOTS, RESERVED, SLOTS, SlotName, intersects } from "./stage";
+import { Anchor, CardState, RichLine, SceneSpec } from "./schema";
+import { Resolved, buildCues, checkOverlaps, resolveAnchors, wordTime } from "./resolve";
+import { SLOTS, SlotName } from "./stage";
 import { staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 
 // Compiles a declarative SceneSpec into the same (timings) => SceneBuild
-// contract hand-written scenes use. Anchors resolve through wordTime
-// (fail-loud), ref anchors resolve topologically, and the overlap checker
-// throws — reporting ALL violations at once — when interval-intersecting
-// beats claim intersecting slots or reserved bands.
+// contract hand-written scenes use. The pure compiler core (anchor
+// resolution, the fail-loud overlap checker, cue pairing) lives in
+// resolve.ts; this file is the React view over its output.
 
 export type CustomBeatProps = {
   in: number;
@@ -35,75 +34,12 @@ export type CustomBeatProps = {
 };
 export type CustomRegistry = Record<string, React.FC<CustomBeatProps>>;
 
-type Resolved = Beat & { tIn: number; tOut: number };
-
-const FADE_TAIL = 0.5; // props fade for their final ~0.5s — not occupancy
-
-const resolveAnchors = (spec: SceneSpec, timings: Timings) => {
-  const times: Record<string, number> = {};
-  const one = (a: Anchor, self: string): number => {
-    if ("at" in a) return a.at;
-    if ("word" in a) {
-      return wordTime(timings, new RegExp(a.word), { nth: a.nth, offset: a.offset });
-    }
-    if (!(a.ref in times)) {
-      throw new Error(`beat "${self}": ref "${a.ref}" unresolved (order beats topologically; cycles are not allowed)`);
-    }
-    return times[a.ref] + (a.offset ?? 0);
-  };
-  const resolved: Resolved[] = [];
-  for (const b of spec.beats) {
-    const tIn = one(b.in, b.id);
-    times[b.id] = tIn;
-    const tOut = b.out ? one(b.out, b.id) : tIn + 0.6;
-    resolved.push({ ...b, tIn, tOut });
-  }
-  return { resolved, times, one };
-};
-
-const checkOverlaps = (beats: Resolved[]) => {
-  const problems: string[] = [];
-  const occupied = beats.filter(
-    (b) => b.slot !== "none" && !POINT_SLOTS.includes(b.slot as SlotName) && b.prop.kind !== "sfx",
-  );
-  for (const b of occupied) {
-    const rect = b.prop.kind === "custom" && b.prop.claims?.length
-      ? b.prop.claims.map((c) => SLOTS[c]).reduce((a, r) => ({
-          x: Math.min(a.x, r.x), y: Math.min(a.y, r.y),
-          w: Math.max(a.x + a.w, r.x + r.w) - Math.min(a.x, r.x),
-          h: Math.max(a.y + a.h, r.y + r.h) - Math.min(a.y, r.y),
-        }))
-      : SLOTS[b.slot as SlotName];
-    // reserved bands (the rail relaxation during focus is handled by the
-    // pixel checker; statically we simply forbid the caption band)
-    if (intersects(rect, RESERVED.caption)) {
-      problems.push(`${b.id}: slot "${b.slot}" intersects the reserved caption band`);
-    }
-    for (const other of occupied) {
-      if (other.id <= b.id) continue;
-      if (b.allowOverlap?.includes(other.slot as SlotName)) continue;
-      if (other.allowOverlap?.includes(b.slot as SlotName)) continue;
-      const overlapT = Math.min(b.tOut - FADE_TAIL, other.tOut - FADE_TAIL) - Math.max(b.tIn, other.tIn);
-      if (overlapT <= 0) continue;
-      const orect = other.prop.kind === "custom" && other.prop.claims?.length
-        ? SLOTS[other.prop.claims[0]]
-        : SLOTS[other.slot as SlotName];
-      if (intersects(rect, orect)) {
-        problems.push(
-          `${b.id} × ${other.id}: slots "${b.slot}"/"${other.slot}" intersect for ${overlapT.toFixed(1)}s (${Math.max(b.tIn, other.tIn).toFixed(1)}s+)`,
-        );
-      }
-    }
-  }
-  if (problems.length) {
-    throw new Error(`scene overlap check failed:\n  ${problems.join("\n  ")}`);
-  }
-};
-
 const lineStyle = (l: RichLine): React.CSSProperties => ({
   fontFamily: l.mono ? FONTS.mono : undefined,
   color: l.color ?? COLORS.text,
-  textAlign: "left",
+  textAlign: l.align ?? "left",
+  fontSize: l.size,
+  marginTop: l.gap,
 });
 
 const BeatView: React.FC<{ beat: Resolved; times: Record<string, number>; timings: Timings; customs: CustomRegistry }> = ({
@@ -194,14 +130,13 @@ const BeatView: React.FC<{ beat: Resolved; times: Record<string, number>; timing
           sound={p.sound}
         >
           <div style={{ lineHeight: p.lineHeight }}>
-            {active.text.map((l: RichLine, i: number) => {
-              const visible = !l.at || t >= resolveLocal(l.at);
-              return (
-                <div key={i} style={{ ...lineStyle(l), opacity: visible ? 1 : 0 }}>
+            {active.text.map((l: RichLine, i: number) =>
+              !l.at || t >= resolveLocal(l.at) ? (
+                <div key={i} style={lineStyle(l)}>
                   {l.text}
                 </div>
-              );
-            })}
+              ) : null,
+            )}
           </div>
         </Card>
       );
@@ -225,17 +160,7 @@ export const fromSpec =
   (timings: Timings): SceneBuild => {
     const { resolved, times, one } = resolveAnchors(spec, timings);
     checkOverlaps(resolved);
-    const cues: MascotCue[] = (spec.cues ?? []).map((c) => ({
-      at: one(c.at, "cue"),
-      kind: c.kind,
-      durationSeconds: c.durationSeconds,
-    }));
-    // clip beats with hideMascot auto-pair the hide cue — no manual pairing.
-    for (const b of resolved) {
-      if (b.prop.kind === "clip" && b.prop.hideMascot) {
-        cues.push({ at: b.tIn - 0.05, kind: "hide", durationSeconds: b.tOut - b.tIn + 0.1 });
-      }
-    }
+    const cues: MascotCue[] = buildCues(spec, resolved, one);
     const camera: CameraKey[] | undefined = spec.camera?.map((k) => ({
       at: one(k.at, "camera"),
       scale: k.scale,
