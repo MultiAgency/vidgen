@@ -1,0 +1,665 @@
+{
+  "durationSeconds": 54.103,
+  "words": [
+    {
+      "text": "A",
+      "start": 0,
+      "end": 0.093
+    },
+    {
+      "text": "bug",
+      "start": 0.174,
+      "end": 0.383
+    },
+    {
+      "text": "bounty",
+      "start": 0.453,
+      "end": 0.755
+    },
+    {
+      "text": "report",
+      "start": 0.813,
+      "end": 1.184
+    },
+    {
+      "text": "is",
+      "start": 1.242,
+      "end": 1.358
+    },
+    {
+      "text": "the",
+      "start": 1.405,
+      "end": 1.474
+    },
+    {
+      "text": "most",
+      "start": 1.521,
+      "end": 1.683
+    },
+    {
+      "text": "hostile",
+      "start": 1.741,
+      "end": 2.218
+    },
+    {
+      "text": "text",
+      "start": 2.264,
+      "end": 2.647
+    },
+    {
+      "text": "you'll",
+      "start": 2.821,
+      "end": 3.019
+    },
+    {
+      "text": "ever",
+      "start": 3.077,
+      "end": 3.239
+    },
+    {
+      "text": "paste",
+      "start": 3.309,
+      "end": 3.622
+    },
+    {
+      "text": "into",
+      "start": 3.657,
+      "end": 3.82
+    },
+    {
+      "text": "an",
+      "start": 3.889,
+      "end": 3.947
+    },
+    {
+      "text": "AI",
+      "start": 4.017,
+      "end": 4.342
+    },
+    {
+      "text": "agent.",
+      "start": 4.412,
+      "end": 4.957
+    },
+    {
+      "text": "It's",
+      "start": 5.468,
+      "end": 5.666
+    },
+    {
+      "text": "written",
+      "start": 5.7,
+      "end": 5.956
+    },
+    {
+      "text": "by",
+      "start": 6.002,
+      "end": 6.13
+    },
+    {
+      "text": "strangers,",
+      "start": 6.2,
+      "end": 6.815
+    },
+    {
+      "text": "about",
+      "start": 6.861,
+      "end": 7.163
+    },
+    {
+      "text": "your",
+      "start": 7.21,
+      "end": 7.326
+    },
+    {
+      "text": "security",
+      "start": 7.372,
+      "end": 7.976
+    },
+    {
+      "text": "—",
+      "start": 8.104,
+      "end": 8.173
+    },
+    {
+      "text": "and",
+      "start": 8.324,
+      "end": 8.487
+    },
+    {
+      "text": "sometimes",
+      "start": 8.557,
+      "end": 9.033
+    },
+    {
+      "text": "written",
+      "start": 9.079,
+      "end": 9.334
+    },
+    {
+      "text": "to",
+      "start": 9.381,
+      "end": 9.439
+    },
+    {
+      "text": "attack",
+      "start": 9.509,
+      "end": 9.799
+    },
+    {
+      "text": "the",
+      "start": 9.857,
+      "end": 9.938
+    },
+    {
+      "text": "agent",
+      "start": 10.008,
+      "end": 10.31
+    },
+    {
+      "text": "itself.",
+      "start": 10.356,
+      "end": 11.006
+    },
+    {
+      "text": "IronClaw",
+      "start": 11.703,
+      "end": 12.307
+    },
+    {
+      "text": "treats",
+      "start": 12.365,
+      "end": 12.632
+    },
+    {
+      "text": "it",
+      "start": 12.678,
+      "end": 12.748
+    },
+    {
+      "text": "that",
+      "start": 12.783,
+      "end": 12.922
+    },
+    {
+      "text": "way.",
+      "start": 12.98,
+      "end": 13.41
+    },
+    {
+      "text": "Prompt-injection",
+      "start": 13.851,
+      "end": 14.698
+    },
+    {
+      "text": "scanning",
+      "start": 14.768,
+      "end": 15.163
+    },
+    {
+      "text": "guards",
+      "start": 15.244,
+      "end": 15.581
+    },
+    {
+      "text": "the",
+      "start": 15.65,
+      "end": 15.72
+    },
+    {
+      "text": "seams",
+      "start": 15.79,
+      "end": 16.219
+    },
+    {
+      "text": "where",
+      "start": 16.347,
+      "end": 16.602
+    },
+    {
+      "text": "text",
+      "start": 16.649,
+      "end": 16.997
+    },
+    {
+      "text": "could",
+      "start": 17.044,
+      "end": 17.183
+    },
+    {
+      "text": "become",
+      "start": 17.218,
+      "end": 17.496
+    },
+    {
+      "text": "instructions",
+      "start": 17.531,
+      "end": 18.263
+    },
+    {
+      "text": "—",
+      "start": 18.379,
+      "end": 18.448
+    },
+    {
+      "text": "routines,",
+      "start": 18.565,
+      "end": 19.273
+    },
+    {
+      "text": "memory,",
+      "start": 19.424,
+      "end": 19.981
+    },
+    {
+      "text": "tool",
+      "start": 20.097,
+      "end": 20.376
+    },
+    {
+      "text": "catalogs",
+      "start": 20.445,
+      "end": 21.037
+    },
+    {
+      "text": "—",
+      "start": 21.188,
+      "end": 21.235
+    },
+    {
+      "text": "and",
+      "start": 21.56,
+      "end": 21.699
+    },
+    {
+      "text": "a",
+      "start": 21.757,
+      "end": 21.781
+    },
+    {
+      "text": "leak",
+      "start": 21.839,
+      "end": 22.036
+    },
+    {
+      "text": "detector",
+      "start": 22.106,
+      "end": 22.57
+    },
+    {
+      "text": "scrubs",
+      "start": 22.628,
+      "end": 23.081
+    },
+    {
+      "text": "known",
+      "start": 23.197,
+      "end": 23.51
+    },
+    {
+      "text": "credential",
+      "start": 23.58,
+      "end": 24.103
+    },
+    {
+      "text": "shapes",
+      "start": 24.161,
+      "end": 24.567
+    },
+    {
+      "text": "—",
+      "start": 24.741,
+      "end": 24.846
+    },
+    {
+      "text": "API",
+      "start": 24.904,
+      "end": 25.356
+    },
+    {
+      "text": "keys,",
+      "start": 25.449,
+      "end": 25.937
+    },
+    {
+      "text": "private",
+      "start": 26.053,
+      "end": 26.471
+    },
+    {
+      "text": "keys,",
+      "start": 26.517,
+      "end": 27.063
+    },
+    {
+      "text": "tokens",
+      "start": 27.179,
+      "end": 27.783
+    },
+    {
+      "text": "—",
+      "start": 27.934,
+      "end": 27.98
+    },
+    {
+      "text": "from",
+      "start": 28.096,
+      "end": 28.259
+    },
+    {
+      "text": "command",
+      "start": 28.329,
+      "end": 28.712
+    },
+    {
+      "text": "output",
+      "start": 28.781,
+      "end": 29.257
+    },
+    {
+      "text": "before",
+      "start": 29.339,
+      "end": 29.64
+    },
+    {
+      "text": "the",
+      "start": 29.675,
+      "end": 29.745
+    },
+    {
+      "text": "model",
+      "start": 29.78,
+      "end": 30.047
+    },
+    {
+      "text": "sees",
+      "start": 30.117,
+      "end": 30.36
+    },
+    {
+      "text": "it.",
+      "start": 30.43,
+      "end": 30.72
+    },
+    {
+      "text": "Then",
+      "start": 31.162,
+      "end": 31.382
+    },
+    {
+      "text": "comes",
+      "start": 31.463,
+      "end": 31.719
+    },
+    {
+      "text": "reproduction",
+      "start": 31.788,
+      "end": 32.497
+    },
+    {
+      "text": "—",
+      "start": 32.671,
+      "end": 32.729
+    },
+    {
+      "text": "not",
+      "start": 33.054,
+      "end": 33.217
+    },
+    {
+      "text": "on",
+      "start": 33.275,
+      "end": 33.344
+    },
+    {
+      "text": "your",
+      "start": 33.391,
+      "end": 33.507
+    },
+    {
+      "text": "laptop.",
+      "start": 33.553,
+      "end": 34.192
+    },
+    {
+      "text": "The",
+      "start": 34.633,
+      "end": 34.761
+    },
+    {
+      "text": "agent",
+      "start": 34.842,
+      "end": 35.179
+    },
+    {
+      "text": "works",
+      "start": 35.237,
+      "end": 35.55
+    },
+    {
+      "text": "in",
+      "start": 35.597,
+      "end": 35.666
+    },
+    {
+      "text": "an",
+      "start": 35.701,
+      "end": 35.771
+    },
+    {
+      "text": "isolated",
+      "start": 35.864,
+      "end": 36.444
+    },
+    {
+      "text": "sandbox",
+      "start": 36.502,
+      "end": 37.129
+    },
+    {
+      "text": "with",
+      "start": 37.303,
+      "end": 37.489
+    },
+    {
+      "text": "hard",
+      "start": 37.547,
+      "end": 37.814
+    },
+    {
+      "text": "memory",
+      "start": 37.884,
+      "end": 38.22
+    },
+    {
+      "text": "and",
+      "start": 38.278,
+      "end": 38.36
+    },
+    {
+      "text": "execution",
+      "start": 38.429,
+      "end": 38.998
+    },
+    {
+      "text": "caps,",
+      "start": 39.068,
+      "end": 39.59
+    },
+    {
+      "text": "following",
+      "start": 39.915,
+      "end": 40.322
+    },
+    {
+      "text": "a",
+      "start": 40.368,
+      "end": 40.403
+    },
+    {
+      "text": "security",
+      "start": 40.461,
+      "end": 40.972
+    },
+    {
+      "text": "review",
+      "start": 41.053,
+      "end": 41.32
+    },
+    {
+      "text": "playbook,",
+      "start": 41.378,
+      "end": 41.994
+    },
+    {
+      "text": "and",
+      "start": 42.168,
+      "end": 42.319
+    },
+    {
+      "text": "every",
+      "start": 42.388,
+      "end": 42.609
+    },
+    {
+      "text": "confirmed",
+      "start": 42.655,
+      "end": 43.155
+    },
+    {
+      "text": "finding",
+      "start": 43.213,
+      "end": 43.619
+    },
+    {
+      "text": "ships",
+      "start": 43.863,
+      "end": 44.2
+    },
+    {
+      "text": "with",
+      "start": 44.234,
+      "end": 44.362
+    },
+    {
+      "text": "a",
+      "start": 44.397,
+      "end": 44.432
+    },
+    {
+      "text": "concrete",
+      "start": 44.49,
+      "end": 44.919
+    },
+    {
+      "text": "fix,",
+      "start": 44.966,
+      "end": 45.523
+    },
+    {
+      "text": "not",
+      "start": 45.906,
+      "end": 46.069
+    },
+    {
+      "text": "just",
+      "start": 46.127,
+      "end": 46.336
+    },
+    {
+      "text": "a",
+      "start": 46.382,
+      "end": 46.406
+    },
+    {
+      "text": "severity",
+      "start": 46.464,
+      "end": 46.928
+    },
+    {
+      "text": "label.",
+      "start": 46.986,
+      "end": 47.497
+    },
+    {
+      "text": "Then",
+      "start": 48.101,
+      "end": 48.321
+    },
+    {
+      "text": "it",
+      "start": 48.368,
+      "end": 48.449
+    },
+    {
+      "text": "labels",
+      "start": 48.519,
+      "end": 48.879
+    },
+    {
+      "text": "the",
+      "start": 48.925,
+      "end": 49.006
+    },
+    {
+      "text": "issue",
+      "start": 49.076,
+      "end": 49.401
+    },
+    {
+      "text": "and",
+      "start": 49.436,
+      "end": 49.529
+    },
+    {
+      "text": "posts",
+      "start": 49.61,
+      "end": 49.993
+    },
+    {
+      "text": "the",
+      "start": 50.051,
+      "end": 50.132
+    },
+    {
+      "text": "verdict.",
+      "start": 50.179,
+      "end": 50.794
+    },
+    {
+      "text": "Triage",
+      "start": 51.235,
+      "end": 51.781
+    },
+    {
+      "text": "the",
+      "start": 51.816,
+      "end": 51.886
+    },
+    {
+      "text": "real",
+      "start": 51.955,
+      "end": 52.164
+    },
+    {
+      "text": "ones.",
+      "start": 52.246,
+      "end": 52.698
+    },
+    {
+      "text": "Skip",
+      "start": 52.872,
+      "end": 53.163
+    },
+    {
+      "text": "the",
+      "start": 53.232,
+      "end": 53.302
+    },
+    {
+      "text": "noise.",
+      "start": 53.372,
+      "end": 54.103
+    }
+  ]
+}

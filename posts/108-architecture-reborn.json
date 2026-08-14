@@ -1,0 +1,125 @@
+{
+  "slug": "108-architecture-reborn",
+  "title": "Inside IronClaw",
+  "tagline": "The Reborn architecture, claim by claim, from source",
+  "accent": "#06b6d4",
+  "outro": "Authority flows down.",
+  "script": "IronClaw's architecture in three minutes — every claim in this video is verified against the source, with the file paths on screen. Sixty-four crates, ten families, one rule: authority flows down, never sideways. Contracts at the top define vocabulary and never execute. Substrates own privileged mechanism — filesystem, secrets, network, safety. And the kernel is one crate per mediation stage, so no stage can swallow another. A turn enters one of two ways: a product command through the WebUI's ProductSurface, or a verified webhook — Slack signed with HMAC, Telegram with a shared secret. Both converge on the same spine: the thread service records the message durably, and the TurnCoordinator admits it as a run. The scheduler isn't special — it's a thin projection over the kernel's generic process supervisor. A driver claims the run, restores a checkpoint if one exists, and hands it to the agent loop. The loop is ten ordered stages — budget, input, prompt, model, reply admission, assistant reply, capabilities, post-capability, stop, exit. And here's the part that matters: the loop is replaceable behavior behind a driver contract. It is not the security perimeter. The perimeter is the capability host. Every tool call crosses the same stages: trust computed in the kernel, not stamped by the caller; runtime policy; credential preflight — before approvals, so a human's yes is never wasted on a call that can't run; authorization with origin gates; approvals; obligations — reserve resources, inject a secret exactly once, redact output; and then the seal. Authorization mints an Authorized value only the capability host can construct, with a frozen expiry. Dispatch sits below authorization and routes the sealed request to one of four closed lanes: first-party, WASM, MCP, or a sandboxed process. A manifest can never request the trusted runtimes — those variants literally don't deserialize. Everything that happens becomes typed events: the log defines vocabulary with redaction at construction, one store makes it durable, projections replay it into read models, streams admit subscribers. One direction, no second writer. And the project rule on top: LLM data is never deleted — timestamps and filters, not deletion. Trust is enforced by the compiler. The one trusted inbound type is crate-private, minted at exactly one production site — the scheduled-trigger path — and a trigger fire runs a pinned profile that can't rewrite the triggers themselves. That's the shape: authority in the kernel, behavior in the loop, mechanism in the substrates, and a seal in between. Start at crates/AGENTS.md — and read the contracts before the code.",
+  "walkthrough": {
+    "steps": [
+      {
+        "label": "Families",
+        "at": 8.5
+      },
+      {
+        "label": "Turn",
+        "at": 30.2
+      },
+      {
+        "label": "Loop",
+        "at": 60.8
+      },
+      {
+        "label": "Seal",
+        "at": 79.0
+      },
+      {
+        "label": "Events",
+        "at": 130.8
+      },
+      {
+        "label": "Trust",
+        "at": 153.2
+      }
+    ],
+    "cards": [
+      {
+        "type": "code",
+        "text": "crates/\n├ contracts/   vocabulary — never executes\n├ substrates/  fs · secrets · net · safety\n├ kernel/      one crate per stage\n├ domains/  events/  extensions/\n└ lanes/  loop/  product/  app/",
+        "at": 10.0,
+        "duration": 18.0
+      },
+      {
+        "type": "code",
+        "text": "budget → input → prompt → model\n→ reply_admission → assistant_reply\n→ capabilities → post_capability\n→ stop → exit",
+        "at": 62.7,
+        "duration": 14.0
+      },
+      {
+        "type": "code",
+        "text": "pub enum RuntimeKind {\n  Wasm, Mcp, Script,\n  #[serde(skip_deserializing)] Sandbox,\n  #[serde(skip_deserializing)] FirstParty,\n  #[serde(skip_deserializing)] System,\n}",
+        "at": 124.8,
+        "duration": 5.5
+      },
+      {
+        "type": "code",
+        "text": "// ironclaw_conversations — pub(crate)\nstruct TrustedInboundTurnRequest { … }\n// one production mint site:\n// src/inbound.rs:361 — trigger fires only",
+        "at": 155.5,
+        "duration": 10.0
+      }
+    ]
+  },
+  "diagram": {
+    "at": 81.2,
+    "duration": 24,
+    "nodes": [
+      {
+        "icon": "🛡",
+        "label": "trust"
+      },
+      {
+        "icon": "📜",
+        "label": "policy"
+      },
+      {
+        "icon": "🔒",
+        "label": "authorize"
+      },
+      {
+        "icon": "🙋",
+        "label": "approve"
+      },
+      {
+        "icon": "⚖",
+        "label": "obligations"
+      },
+      {
+        "icon": "🪪",
+        "label": "seal"
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 175,
+  "claims": [
+    {
+      "text": "authority flows down — contracts define vocabulary and never execute",
+      "source": "crates/contracts"
+    },
+    {
+      "text": "a turn is coordinated through one kernel mediation path",
+      "source": "crates/kernel/ironclaw_turns/src/coordinator.rs"
+    },
+    {
+      "text": "the agent loop executes as an ordered pipeline",
+      "source": "crates/loop/ironclaw_agent_loop/src/executor/pipeline.rs"
+    },
+    {
+      "text": "capability authorization gates every privileged call",
+      "source": "crates/kernel/ironclaw_capabilities/src/host/authorize.rs"
+    },
+    {
+      "text": "events are appended to a log sink — never deleted",
+      "source": "crates/events/ironclaw_event_log/src/sink.rs"
+    },
+    {
+      "text": "inbound messages verified before entering a conversation",
+      "source": "crates/domains/ironclaw_conversations/src/inbound.rs"
+    }
+  ]
+}

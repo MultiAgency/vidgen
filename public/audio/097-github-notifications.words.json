@@ -1,0 +1,620 @@
+{
+  "durationSeconds": 45.279,
+  "words": [
+    {
+      "text": "A",
+      "start": 0,
+      "end": 0.093
+    },
+    {
+      "text": "new",
+      "start": 0.186,
+      "end": 0.325
+    },
+    {
+      "text": "issue",
+      "start": 0.395,
+      "end": 0.697
+    },
+    {
+      "text": "lands",
+      "start": 0.743,
+      "end": 0.998
+    },
+    {
+      "text": "on",
+      "start": 1.033,
+      "end": 1.103
+    },
+    {
+      "text": "your",
+      "start": 1.138,
+      "end": 1.265
+    },
+    {
+      "text": "repo",
+      "start": 1.324,
+      "end": 1.649
+    },
+    {
+      "text": "overnight.",
+      "start": 1.73,
+      "end": 2.438
+    },
+    {
+      "text": "When",
+      "start": 2.763,
+      "end": 2.949
+    },
+    {
+      "text": "do",
+      "start": 2.984,
+      "end": 3.03
+    },
+    {
+      "text": "you",
+      "start": 3.088,
+      "end": 3.158
+    },
+    {
+      "text": "find",
+      "start": 3.216,
+      "end": 3.437
+    },
+    {
+      "text": "out?",
+      "start": 3.495,
+      "end": 3.913
+    },
+    {
+      "text": "With",
+      "start": 4.423,
+      "end": 4.621
+    },
+    {
+      "text": "IronClaw:",
+      "start": 4.69,
+      "end": 5.468
+    },
+    {
+      "text": "on",
+      "start": 5.619,
+      "end": 5.759
+    },
+    {
+      "text": "your",
+      "start": 5.805,
+      "end": 5.921
+    },
+    {
+      "text": "schedule,",
+      "start": 5.968,
+      "end": 6.571
+    },
+    {
+      "text": "in",
+      "start": 6.629,
+      "end": 6.745
+    },
+    {
+      "text": "your",
+      "start": 6.792,
+      "end": 6.908
+    },
+    {
+      "text": "chat.",
+      "start": 6.954,
+      "end": 7.488
+    },
+    {
+      "text": "Give",
+      "start": 7.999,
+      "end": 8.208
+    },
+    {
+      "text": "your",
+      "start": 8.243,
+      "end": 8.371
+    },
+    {
+      "text": "agent",
+      "start": 8.429,
+      "end": 8.766
+    },
+    {
+      "text": "a",
+      "start": 8.8,
+      "end": 8.835
+    },
+    {
+      "text": "routine",
+      "start": 8.893,
+      "end": 9.462
+    },
+    {
+      "text": "—",
+      "start": 9.497,
+      "end": 9.555
+    },
+    {
+      "text": "plain",
+      "start": 9.671,
+      "end": 9.961
+    },
+    {
+      "text": "words",
+      "start": 10.031,
+      "end": 10.391
+    },
+    {
+      "text": "plus",
+      "start": 10.437,
+      "end": 10.658
+    },
+    {
+      "text": "a",
+      "start": 10.704,
+      "end": 10.728
+    },
+    {
+      "text": "cron",
+      "start": 10.786,
+      "end": 11.029
+    },
+    {
+      "text": "schedule",
+      "start": 11.111,
+      "end": 11.68
+    },
+    {
+      "text": "—",
+      "start": 11.703,
+      "end": 11.761
+    },
+    {
+      "text": "and",
+      "start": 11.912,
+      "end": 12.051
+    },
+    {
+      "text": "it",
+      "start": 12.121,
+      "end": 12.19
+    },
+    {
+      "text": "checks",
+      "start": 12.225,
+      "end": 12.516
+    },
+    {
+      "text": "your",
+      "start": 12.55,
+      "end": 12.69
+    },
+    {
+      "text": "repos",
+      "start": 12.748,
+      "end": 13.189
+    },
+    {
+      "text": "as",
+      "start": 13.235,
+      "end": 13.317
+    },
+    {
+      "text": "often",
+      "start": 13.398,
+      "end": 13.677
+    },
+    {
+      "text": "as",
+      "start": 13.723,
+      "end": 13.781
+    },
+    {
+      "text": "you",
+      "start": 13.827,
+      "end": 13.909
+    },
+    {
+      "text": "like.",
+      "start": 13.978,
+      "end": 14.478
+    },
+    {
+      "text": "New",
+      "start": 14.988,
+      "end": 15.174
+    },
+    {
+      "text": "issues,",
+      "start": 15.232,
+      "end": 15.789
+    },
+    {
+      "text": "new",
+      "start": 15.917,
+      "end": 16.091
+    },
+    {
+      "text": "pull",
+      "start": 16.149,
+      "end": 16.346
+    },
+    {
+      "text": "requests,",
+      "start": 16.404,
+      "end": 17.078
+    },
+    {
+      "text": "new",
+      "start": 17.229,
+      "end": 17.403
+    },
+    {
+      "text": "comments:",
+      "start": 17.461,
+      "end": 18.111
+    },
+    {
+      "text": "it",
+      "start": 18.552,
+      "end": 18.68
+    },
+    {
+      "text": "reads",
+      "start": 18.75,
+      "end": 19.017
+    },
+    {
+      "text": "each",
+      "start": 19.098,
+      "end": 19.319
+    },
+    {
+      "text": "one,",
+      "start": 19.388,
+      "end": 19.783
+    },
+    {
+      "text": "filters",
+      "start": 19.876,
+      "end": 20.271
+    },
+    {
+      "text": "the",
+      "start": 20.329,
+      "end": 20.398
+    },
+    {
+      "text": "noise",
+      "start": 20.468,
+      "end": 20.956
+    },
+    {
+      "text": "—",
+      "start": 21.002,
+      "end": 21.072
+    },
+    {
+      "text": "bots,",
+      "start": 21.165,
+      "end": 21.699
+    },
+    {
+      "text": "drive-by",
+      "start": 21.815,
+      "end": 22.314
+    },
+    {
+      "text": "comments,",
+      "start": 22.395,
+      "end": 22.953
+    },
+    {
+      "text": "your",
+      "start": 23.069,
+      "end": 23.231
+    },
+    {
+      "text": "own",
+      "start": 23.289,
+      "end": 23.429
+    },
+    {
+      "text": "pushes",
+      "start": 23.487,
+      "end": 23.939
+    },
+    {
+      "text": "—",
+      "start": 24.114,
+      "end": 24.16
+    },
+    {
+      "text": "and",
+      "start": 24.439,
+      "end": 24.59
+    },
+    {
+      "text": "delivers",
+      "start": 24.648,
+      "end": 25.007
+    },
+    {
+      "text": "what",
+      "start": 25.054,
+      "end": 25.205
+    },
+    {
+      "text": "matters",
+      "start": 25.275,
+      "end": 25.6
+    },
+    {
+      "text": "straight",
+      "start": 25.646,
+      "end": 25.936
+    },
+    {
+      "text": "to",
+      "start": 25.971,
+      "end": 26.041
+    },
+    {
+      "text": "Slack",
+      "start": 26.099,
+      "end": 26.424
+    },
+    {
+      "text": "or",
+      "start": 26.482,
+      "end": 26.563
+    },
+    {
+      "text": "Telegram.",
+      "start": 26.621,
+      "end": 27.306
+    },
+    {
+      "text": "No",
+      "start": 27.747,
+      "end": 27.922
+    },
+    {
+      "text": "refreshing,",
+      "start": 28.003,
+      "end": 28.711
+    },
+    {
+      "text": "no",
+      "start": 28.885,
+      "end": 29.013
+    },
+    {
+      "text": "email",
+      "start": 29.106,
+      "end": 29.454
+    },
+    {
+      "text": "digest",
+      "start": 29.512,
+      "end": 30.023
+    },
+    {
+      "text": "three",
+      "start": 30.081,
+      "end": 30.302
+    },
+    {
+      "text": "hours",
+      "start": 30.336,
+      "end": 30.58
+    },
+    {
+      "text": "late.",
+      "start": 30.638,
+      "end": 31.091
+    },
+    {
+      "text": "And",
+      "start": 31.602,
+      "end": 31.765
+    },
+    {
+      "text": "anything",
+      "start": 31.823,
+      "end": 32.171
+    },
+    {
+      "text": "risky",
+      "start": 32.241,
+      "end": 32.566
+    },
+    {
+      "text": "the",
+      "start": 32.635,
+      "end": 32.717
+    },
+    {
+      "text": "agent",
+      "start": 32.786,
+      "end": 33.088
+    },
+    {
+      "text": "might",
+      "start": 33.135,
+      "end": 33.32
+    },
+    {
+      "text": "do",
+      "start": 33.367,
+      "end": 33.483
+    },
+    {
+      "text": "along",
+      "start": 33.564,
+      "end": 33.762
+    },
+    {
+      "text": "the",
+      "start": 33.808,
+      "end": 33.878
+    },
+    {
+      "text": "way",
+      "start": 33.924,
+      "end": 34.203
+    },
+    {
+      "text": "stops",
+      "start": 34.447,
+      "end": 34.818
+    },
+    {
+      "text": "and",
+      "start": 34.853,
+      "end": 34.934
+    },
+    {
+      "text": "asks",
+      "start": 34.981,
+      "end": 35.224
+    },
+    {
+      "text": "for",
+      "start": 35.271,
+      "end": 35.375
+    },
+    {
+      "text": "your",
+      "start": 35.433,
+      "end": 35.631
+    },
+    {
+      "text": "approval",
+      "start": 35.677,
+      "end": 36.107
+    },
+    {
+      "text": "first",
+      "start": 36.2,
+      "end": 36.618
+    },
+    {
+      "text": "—",
+      "start": 36.769,
+      "end": 36.815
+    },
+    {
+      "text": "that's",
+      "start": 37.256,
+      "end": 37.535
+    },
+    {
+      "text": "the",
+      "start": 37.593,
+      "end": 37.674
+    },
+    {
+      "text": "default,",
+      "start": 37.721,
+      "end": 38.336
+    },
+    {
+      "text": "not",
+      "start": 38.545,
+      "end": 38.719
+    },
+    {
+      "text": "a",
+      "start": 38.765,
+      "end": 38.8
+    },
+    {
+      "text": "setting",
+      "start": 38.87,
+      "end": 39.195
+    },
+    {
+      "text": "you",
+      "start": 39.241,
+      "end": 39.311
+    },
+    {
+      "text": "have",
+      "start": 39.381,
+      "end": 39.509
+    },
+    {
+      "text": "to",
+      "start": 39.532,
+      "end": 39.59
+    },
+    {
+      "text": "remember.",
+      "start": 39.659,
+      "end": 40.286
+    },
+    {
+      "text": "Stop",
+      "start": 40.728,
+      "end": 41.018
+    },
+    {
+      "text": "living",
+      "start": 41.087,
+      "end": 41.32
+    },
+    {
+      "text": "in",
+      "start": 41.366,
+      "end": 41.424
+    },
+    {
+      "text": "the",
+      "start": 41.447,
+      "end": 41.517
+    },
+    {
+      "text": "notifications",
+      "start": 41.552,
+      "end": 42.307
+    },
+    {
+      "text": "tab.",
+      "start": 42.365,
+      "end": 42.875
+    },
+    {
+      "text": "Your",
+      "start": 43.2,
+      "end": 43.409
+    },
+    {
+      "text": "repo",
+      "start": 43.479,
+      "end": 43.804
+    },
+    {
+      "text": "reports",
+      "start": 43.885,
+      "end": 44.292
+    },
+    {
+      "text": "to",
+      "start": 44.338,
+      "end": 44.385
+    },
+    {
+      "text": "you",
+      "start": 44.454,
+      "end": 44.547
+    },
+    {
+      "text": "now.",
+      "start": 44.617,
+      "end": 45.279
+    }
+  ]
+}

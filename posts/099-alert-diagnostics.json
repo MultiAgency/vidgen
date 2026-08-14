@@ -1,0 +1,36 @@
+{
+  "slug": "099-alert-diagnostics",
+  "title": "Diagnostics Before You Wake Up",
+  "tagline": "Scheduled checks. Quiet unless it matters.",
+  "accent": "#ef4444",
+  "outro": "Wake up to answers, not alarms.",
+  "script": "Three a.m. Something breaks on your server. Who notices first? Give IronClaw the night shift. A routine runs on whatever schedule you set — every five minutes, if you like. Each run, your agent works through your checklist: disk, memory, processes, logs — real shell commands on the machine you've pointed it at; sandbox or host is your runtime profile to choose. Nothing wrong? It stays quiet — you told it to. But when a check fails, it digs in, gathers the evidence, and delivers the report to your chat: what it found, where, and the likely cause. So the first thing you see isn't an alarm — it's the investigation. Wake up to answers, not alarms.",
+  "diagram": {
+    "at": 8.0,
+    "nodes": [
+      {
+        "icon": "⏰",
+        "label": "every 5 min"
+      },
+      {
+        "icon": "🖥️",
+        "label": "checks"
+      },
+      {
+        "icon": "🔎",
+        "label": "evidence"
+      },
+      {
+        "icon": "📨",
+        "label": "report"
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 50
+}

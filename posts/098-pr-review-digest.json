@@ -1,0 +1,40 @@
+{
+  "slug": "098-pr-review-digest",
+  "title": "Your Morning PR Digest",
+  "tagline": "Every open pull request, triaged before coffee",
+  "accent": "#22c55e",
+  "outro": "Review the verdicts, not the diffs.",
+  "script": "Ten open pull requests, and your morning disappears into tabs. Here's the IronClaw version. A scheduled routine fires before you're up. Your agent pulls the list of every open PR, then works through them one by one: the diff, the changed files, the review threads, the CI status — every check, every unresolved comment. Each PR gets a verdict: ready to merge, needs changes, or blocked — and why. Then it writes one digest, ranked by what needs you first, and delivers it to your Slack or Telegram before your coffee's done. You open one message, not ten tabs. Review the verdicts, not the diffs.",
+  "diagram": {
+    "at": 7.5,
+    "nodes": [
+      {
+        "icon": "⏰",
+        "label": "cron 7:00"
+      },
+      {
+        "icon": "🤖",
+        "label": "agent"
+      },
+      {
+        "icon": "🔀",
+        "label": "every PR"
+      },
+      {
+        "icon": "📋",
+        "label": "digest"
+      },
+      {
+        "icon": "💬",
+        "label": "chat"
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 45
+}

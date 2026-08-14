@@ -1,0 +1,36 @@
+{
+  "slug": "097-github-notifications",
+  "title": "Never Miss an Issue Again",
+  "tagline": "GitHub → your chat, on your schedule",
+  "accent": "#f97316",
+  "outro": "Your repo reports to you now.",
+  "script": "A new issue lands on your repo overnight. When do you find out? With IronClaw: on your schedule, in your chat. Give your agent a routine — plain words plus a cron schedule — and it checks your repos as often as you like. New issues, new pull requests, new comments: it reads each one, filters the noise — bots, drive-by comments, your own pushes — and delivers what matters straight to Slack or Telegram. No refreshing, no email digest three hours late. And anything risky the agent might do along the way stops and asks for your approval first — that's the default, not a setting you have to remember. Stop living in the notifications tab. Your repo reports to you now.",
+  "diagram": {
+    "at": 8.8,
+    "nodes": [
+      {
+        "icon": "⏰",
+        "label": "routine"
+      },
+      {
+        "icon": "🤖",
+        "label": "agent"
+      },
+      {
+        "icon": "🐙",
+        "label": "GitHub"
+      },
+      {
+        "icon": "💬",
+        "label": "your chat"
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 51
+}

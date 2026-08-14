@@ -1,0 +1,36 @@
+{
+  "slug": "102-release-tag-fanout",
+  "title": "One Tag, Three Announcements",
+  "tagline": "Release notes, email, thread — one agent",
+  "accent": "#60a5fa",
+  "outro": "Tag it once. Announce it everywhere.",
+  "script": "You cut a release... Now comes the boring part: release notes, the announcement email, the thread. Hand it to your agent. A routine checks your repo on schedule — or you just ask when the tag lands... It reads the pull requests behind the release, checks CI passed, and writes the release notes on GitHub — with your approval on the publish... Then the fan-out: an email drafted in your Gmail, a thread delivered to your chat, ready to post... The voice is yours — the format lives in a skill, a Markdown playbook you write once. Tag it once... Announce it everywhere.",
+  "diagram": {
+    "at": 14.3,
+    "nodes": [
+      {
+        "icon": "🏷️",
+        "label": "release"
+      },
+      {
+        "icon": "📝",
+        "label": "notes"
+      },
+      {
+        "icon": "✉️",
+        "label": "email"
+      },
+      {
+        "icon": "🧵",
+        "label": "thread"
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 42
+}

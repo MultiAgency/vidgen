@@ -1,0 +1,100 @@
+{
+  "slug": "104-dev-workflow",
+  "title": "From Install to Autopilot",
+  "tagline": "The real IronClaw workflow, start to finish",
+  "accent": "#f43f5e",
+  "outro": "From prompt to PR.",
+  "script": "Here's what actually happens from install to autopilot — the real IronClaw dev workflow, no hand-waving. Day one: one installer script, then ironclaw onboard. Pick a provider, paste one API key — encrypted at rest — and typing plain ironclaw serves the web UI: session timeline, logs, file browser, approval gates. Next, connect where you live: Telegram or Slack — your agent's front door. Then equip it: ironclaw extension install github. Forty-nine sandboxed tools behind one credential — reads run on allow, writes stop and ask. Now the loop. Give it an issue. It reads the code with file tools, patches it — and if you set a post-edit check, every save runs your compiler and feeds new warnings straight back, so it fixes itself before you ever look. Branch, fix, pull request, comment — the loop closes. Put it on a schedule — every weekday at eight: triage my open PRs and send me a digest — then approve the routine once. Teach it your playbooks as Markdown skills — thirty-two ship in the box. From prompt to PR — while you sleep.",
+  "walkthrough": {
+    "steps": [
+      {
+        "label": "Install",
+        "at": 8.1
+      },
+      {
+        "label": "Connect",
+        "at": 23.7
+      },
+      {
+        "label": "Equip",
+        "at": 28.1
+      },
+      {
+        "label": "Loop",
+        "at": 37.8
+      },
+      {
+        "label": "Schedule",
+        "at": 55.4
+      },
+      {
+        "label": "Teach",
+        "at": 62.1
+      }
+    ],
+    "cards": [
+      {
+        "type": "code",
+        "text": "$ curl -LsSf …/ironclaw-installer.sh | sh\n$ ironclaw onboard",
+        "at": 9.2,
+        "duration": 7.0
+      },
+      {
+        "type": "code",
+        "text": "$ ironclaw extension install github\ninstalled: true",
+        "at": 30.0,
+        "duration": 4.2
+      },
+      {
+        "type": "code",
+        "text": "$ export IRONCLAW_POST_EDIT_CHECK=\"cargo check\"\nwrite_file src/retry.rs ✓\npost_edit_check: warning: unused `attempts` (NEW)\napply_patch src/retry.rs ✓\npost_edit_check: no new diagnostics",
+        "at": 43.2,
+        "duration": 7.9,
+        "lineAt": [
+          0.3,
+          2.0,
+          4.0,
+          4.7,
+          5.9
+        ]
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 78,
+  "claims": [
+    {
+      "text": "Forty-nine sandboxed tools behind one credential",
+      "source": "crates/extensions/packages/github/manifest.toml"
+    },
+    {
+      "text": "reads run on allow, writes stop and ask",
+      "source": "crates/extensions/packages/github/manifest.toml"
+    },
+    {
+      "text": "post-edit check runs your compiler and feeds new warnings back",
+      "source": "crates/app/ironclaw_composition/src/factory.rs"
+    },
+    {
+      "text": "Put it on a schedule (cron/one-shot routines, approved once)",
+      "source": "crates/domains/ironclaw_triggers/src/lib.rs"
+    },
+    {
+      "text": "thirty-two skills ship in the box",
+      "source": "skills"
+    },
+    {
+      "text": "API key encrypted at rest",
+      "source": "crates/domains/ironclaw_auth/src/product_auth/api/auth.rs"
+    },
+    {
+      "text": "plain ironclaw serves the web UI",
+      "source": "crates/product/ironclaw_webui"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "001-meet-ironclaw",
+  "title": "Meet IronClaw",
+  "tagline": "The secure, open-source agent harness",
+  "outro": "Privacy. Security. Extensibility.",
+  "accent": "#f59e0b",
+  "script": "Your AI agent can read your email, hold your keys, and run commands on your machine. That should worry you — and it's why IronClaw exists. IronClaw is the secure, open-source agent harness, built in Rust, running where you choose: your machine, your server. What it learns stays yours — conversations, memory, credentials — encrypted at rest. Every tool call crosses a security boundary: sandboxed execution, a leak detector scrubbing secrets before the model ever sees them, and approval gates on anything risky — that's the default. Connect it where you live: Slack or Telegram. Equip it with extensions: GitHub, Gmail, your Google workspace — every tool auditable. Teach it your playbooks as Markdown skills — thirty-two ship in the box. Then hand it a routine, and stop babysitting your automation. IronClaw. The agent you don't have to trust blindly.",
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 50
+}

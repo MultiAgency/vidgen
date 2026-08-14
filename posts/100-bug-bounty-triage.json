@@ -1,0 +1,50 @@
+{
+  "slug": "100-bug-bounty-triage",
+  "title": "Bug Bounty Triage, Contained",
+  "tagline": "Hostile reports, handled safely",
+  "accent": "#eab308",
+  "outro": "Triage the real ones. Skip the noise.",
+  "script": "A bug bounty report is the most hostile text you'll ever paste into an AI agent. It's written by strangers, about your security — and sometimes written to attack the agent itself. IronClaw treats it that way. Prompt-injection scanning guards the seams where text could become instructions — routines, memory, tool catalogs — and a leak detector scrubs known credential shapes — API keys, private keys, tokens — from command output before the model sees it. Then comes reproduction — not on your laptop. The agent works in an isolated sandbox with hard memory and execution caps, following a security review playbook, and every confirmed finding ships with a concrete fix, not just a severity label. Then it labels the issue and posts the verdict. Triage the real ones. Skip the noise.",
+  "diagram": {
+    "at": 32.6,
+    "nodes": [
+      {
+        "icon": "📨",
+        "label": "report"
+      },
+      {
+        "icon": "🛡️",
+        "label": "scans"
+      },
+      {
+        "icon": "📦",
+        "label": "sandbox"
+      },
+      {
+        "icon": "🏷️",
+        "label": "verdict"
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 59,
+  "claims": [
+    {
+      "text": "prompt-injection scanning guards the seams — routines, memory, tool catalogs",
+      "source": "crates/domains/ironclaw_memory/src/safety.rs"
+    },
+    {
+      "text": "leak detector scrubs known credential shapes from command output",
+      "source": "crates/lanes/ironclaw_sandbox/src/sandbox_process/credential_firewall.rs"
+    },
+    {
+      "text": "isolated sandbox with hard memory and execution caps",
+      "source": "crates/lanes/ironclaw_sandbox/src/sandbox_process.rs"
+    }
+  ]
+}

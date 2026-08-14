@@ -1,0 +1,2110 @@
+{
+  "durationSeconds": 179.954,
+  "words": [
+    {
+      "text": "IronClaw's",
+      "start": 0,
+      "end": 0.673
+    },
+    {
+      "text": "architecture",
+      "start": 0.743,
+      "end": 1.474
+    },
+    {
+      "text": "in",
+      "start": 1.533,
+      "end": 1.649
+    },
+    {
+      "text": "three",
+      "start": 1.718,
+      "end": 1.95
+    },
+    {
+      "text": "minutes",
+      "start": 1.997,
+      "end": 2.345
+    },
+    {
+      "text": "—",
+      "start": 2.496,
+      "end": 2.543
+    },
+    {
+      "text": "every",
+      "start": 2.612,
+      "end": 2.902
+    },
+    {
+      "text": "claim",
+      "start": 2.961,
+      "end": 3.228
+    },
+    {
+      "text": "in",
+      "start": 3.274,
+      "end": 3.332
+    },
+    {
+      "text": "this",
+      "start": 3.379,
+      "end": 3.506
+    },
+    {
+      "text": "video",
+      "start": 3.576,
+      "end": 3.947
+    },
+    {
+      "text": "is",
+      "start": 4.017,
+      "end": 4.098
+    },
+    {
+      "text": "verified",
+      "start": 4.156,
+      "end": 4.679
+    },
+    {
+      "text": "against",
+      "start": 4.714,
+      "end": 4.981
+    },
+    {
+      "text": "the",
+      "start": 5.027,
+      "end": 5.097
+    },
+    {
+      "text": "source,",
+      "start": 5.155,
+      "end": 5.735
+    },
+    {
+      "text": "with",
+      "start": 5.944,
+      "end": 6.118
+    },
+    {
+      "text": "the",
+      "start": 6.153,
+      "end": 6.223
+    },
+    {
+      "text": "file",
+      "start": 6.281,
+      "end": 6.571
+    },
+    {
+      "text": "paths",
+      "start": 6.606,
+      "end": 6.978
+    },
+    {
+      "text": "on",
+      "start": 7.047,
+      "end": 7.21
+    },
+    {
+      "text": "screen.",
+      "start": 7.291,
+      "end": 7.941
+    },
+    {
+      "text": "Sixty-four",
+      "start": 8.545,
+      "end": 9.172
+    },
+    {
+      "text": "crates,",
+      "start": 9.242,
+      "end": 9.694
+    },
+    {
+      "text": "ten",
+      "start": 9.764,
+      "end": 9.985
+    },
+    {
+      "text": "families,",
+      "start": 10.066,
+      "end": 10.6
+    },
+    {
+      "text": "one",
+      "start": 10.67,
+      "end": 10.913
+    },
+    {
+      "text": "rule:",
+      "start": 10.96,
+      "end": 11.436
+    },
+    {
+      "text": "authority",
+      "start": 11.645,
+      "end": 12.19
+    },
+    {
+      "text": "flows",
+      "start": 12.26,
+      "end": 12.562
+    },
+    {
+      "text": "down,",
+      "start": 12.62,
+      "end": 13.108
+    },
+    {
+      "text": "never",
+      "start": 13.282,
+      "end": 13.537
+    },
+    {
+      "text": "sideways.",
+      "start": 13.595,
+      "end": 14.35
+    },
+    {
+      "text": "Contracts",
+      "start": 14.954,
+      "end": 15.511
+    },
+    {
+      "text": "at",
+      "start": 15.534,
+      "end": 15.604
+    },
+    {
+      "text": "the",
+      "start": 15.65,
+      "end": 15.72
+    },
+    {
+      "text": "top",
+      "start": 15.767,
+      "end": 16.022
+    },
+    {
+      "text": "define",
+      "start": 16.115,
+      "end": 16.533
+    },
+    {
+      "text": "vocabulary",
+      "start": 16.579,
+      "end": 17.241
+    },
+    {
+      "text": "and",
+      "start": 17.299,
+      "end": 17.427
+    },
+    {
+      "text": "never",
+      "start": 17.485,
+      "end": 17.694
+    },
+    {
+      "text": "execute.",
+      "start": 17.775,
+      "end": 18.425
+    },
+    {
+      "text": "Substrates",
+      "start": 18.634,
+      "end": 19.319
+    },
+    {
+      "text": "own",
+      "start": 19.4,
+      "end": 19.644
+    },
+    {
+      "text": "privileged",
+      "start": 19.726,
+      "end": 20.178
+    },
+    {
+      "text": "mechanism",
+      "start": 20.236,
+      "end": 20.712
+    },
+    {
+      "text": "—",
+      "start": 20.887,
+      "end": 20.945
+    },
+    {
+      "text": "filesystem,",
+      "start": 21.154,
+      "end": 21.966
+    },
+    {
+      "text": "secrets,",
+      "start": 22.082,
+      "end": 22.744
+    },
+    {
+      "text": "network,",
+      "start": 22.953,
+      "end": 23.592
+    },
+    {
+      "text": "safety.",
+      "start": 23.743,
+      "end": 24.404
+    },
+    {
+      "text": "And",
+      "start": 24.846,
+      "end": 24.973
+    },
+    {
+      "text": "the",
+      "start": 25.02,
+      "end": 25.089
+    },
+    {
+      "text": "kernel",
+      "start": 25.136,
+      "end": 25.507
+    },
+    {
+      "text": "is",
+      "start": 25.577,
+      "end": 25.67
+    },
+    {
+      "text": "one",
+      "start": 25.74,
+      "end": 25.925
+    },
+    {
+      "text": "crate",
+      "start": 25.972,
+      "end": 26.262
+    },
+    {
+      "text": "per",
+      "start": 26.297,
+      "end": 26.436
+    },
+    {
+      "text": "mediation",
+      "start": 26.494,
+      "end": 27.051
+    },
+    {
+      "text": "stage,",
+      "start": 27.121,
+      "end": 27.678
+    },
+    {
+      "text": "so",
+      "start": 27.853,
+      "end": 28.003
+    },
+    {
+      "text": "no",
+      "start": 28.085,
+      "end": 28.224
+    },
+    {
+      "text": "stage",
+      "start": 28.294,
+      "end": 28.665
+    },
+    {
+      "text": "can",
+      "start": 28.7,
+      "end": 28.816
+    },
+    {
+      "text": "swallow",
+      "start": 28.874,
+      "end": 29.176
+    },
+    {
+      "text": "another.",
+      "start": 29.234,
+      "end": 29.768
+    },
+    {
+      "text": "A",
+      "start": 30.209,
+      "end": 30.291
+    },
+    {
+      "text": "turn",
+      "start": 30.372,
+      "end": 30.685
+    },
+    {
+      "text": "enters",
+      "start": 30.743,
+      "end": 31.034
+    },
+    {
+      "text": "one",
+      "start": 31.115,
+      "end": 31.277
+    },
+    {
+      "text": "of",
+      "start": 31.312,
+      "end": 31.359
+    },
+    {
+      "text": "two",
+      "start": 31.405,
+      "end": 31.556
+    },
+    {
+      "text": "ways:",
+      "start": 31.626,
+      "end": 32.195
+    },
+    {
+      "text": "a",
+      "start": 32.578,
+      "end": 32.636
+    },
+    {
+      "text": "product",
+      "start": 32.705,
+      "end": 33.065
+    },
+    {
+      "text": "command",
+      "start": 33.123,
+      "end": 33.518
+    },
+    {
+      "text": "through",
+      "start": 33.565,
+      "end": 33.774
+    },
+    {
+      "text": "the",
+      "start": 33.797,
+      "end": 33.866
+    },
+    {
+      "text": "WebUI's",
+      "start": 33.913,
+      "end": 34.47
+    },
+    {
+      "text": "ProductSurface,",
+      "start": 34.517,
+      "end": 35.48
+    },
+    {
+      "text": "or",
+      "start": 35.689,
+      "end": 35.863
+    },
+    {
+      "text": "a",
+      "start": 35.921,
+      "end": 35.945
+    },
+    {
+      "text": "verified",
+      "start": 36.003,
+      "end": 36.49
+    },
+    {
+      "text": "webhook",
+      "start": 36.548,
+      "end": 37.013
+    },
+    {
+      "text": "—",
+      "start": 37.129,
+      "end": 37.187
+    },
+    {
+      "text": "Slack",
+      "start": 37.257,
+      "end": 37.57
+    },
+    {
+      "text": "signed",
+      "start": 37.651,
+      "end": 37.976
+    },
+    {
+      "text": "with",
+      "start": 38.011,
+      "end": 38.139
+    },
+    {
+      "text": "HMAC,",
+      "start": 38.197,
+      "end": 38.882
+    },
+    {
+      "text": "Telegram",
+      "start": 39.056,
+      "end": 39.579
+    },
+    {
+      "text": "with",
+      "start": 39.625,
+      "end": 39.741
+    },
+    {
+      "text": "a",
+      "start": 39.776,
+      "end": 39.811
+    },
+    {
+      "text": "shared",
+      "start": 39.857,
+      "end": 40.171
+    },
+    {
+      "text": "secret.",
+      "start": 40.229,
+      "end": 40.821
+    },
+    {
+      "text": "Both",
+      "start": 41.425,
+      "end": 41.703
+    },
+    {
+      "text": "converge",
+      "start": 41.761,
+      "end": 42.214
+    },
+    {
+      "text": "on",
+      "start": 42.237,
+      "end": 42.295
+    },
+    {
+      "text": "the",
+      "start": 42.342,
+      "end": 42.411
+    },
+    {
+      "text": "same",
+      "start": 42.458,
+      "end": 42.69
+    },
+    {
+      "text": "spine:",
+      "start": 42.725,
+      "end": 43.317
+    },
+    {
+      "text": "the",
+      "start": 43.642,
+      "end": 43.747
+    },
+    {
+      "text": "thread",
+      "start": 43.805,
+      "end": 44.06
+    },
+    {
+      "text": "service",
+      "start": 44.118,
+      "end": 44.478
+    },
+    {
+      "text": "records",
+      "start": 44.536,
+      "end": 44.931
+    },
+    {
+      "text": "the",
+      "start": 44.977,
+      "end": 45.047
+    },
+    {
+      "text": "message",
+      "start": 45.093,
+      "end": 45.43
+    },
+    {
+      "text": "durably,",
+      "start": 45.476,
+      "end": 46.115
+    },
+    {
+      "text": "and",
+      "start": 46.185,
+      "end": 46.336
+    },
+    {
+      "text": "the",
+      "start": 46.382,
+      "end": 46.451
+    },
+    {
+      "text": "TurnCoordinator",
+      "start": 46.498,
+      "end": 47.403
+    },
+    {
+      "text": "admits",
+      "start": 47.45,
+      "end": 47.763
+    },
+    {
+      "text": "it",
+      "start": 47.81,
+      "end": 47.891
+    },
+    {
+      "text": "as",
+      "start": 47.937,
+      "end": 48.019
+    },
+    {
+      "text": "a",
+      "start": 48.065,
+      "end": 48.1
+    },
+    {
+      "text": "run.",
+      "start": 48.169,
+      "end": 48.587
+    },
+    {
+      "text": "The",
+      "start": 49.098,
+      "end": 49.214
+    },
+    {
+      "text": "scheduler",
+      "start": 49.261,
+      "end": 49.702
+    },
+    {
+      "text": "isn't",
+      "start": 49.76,
+      "end": 49.992
+    },
+    {
+      "text": "special",
+      "start": 50.027,
+      "end": 50.457
+    },
+    {
+      "text": "—",
+      "start": 50.608,
+      "end": 50.654
+    },
+    {
+      "text": "it's",
+      "start": 50.898,
+      "end": 51.084
+    },
+    {
+      "text": "a",
+      "start": 51.118,
+      "end": 51.142
+    },
+    {
+      "text": "thin",
+      "start": 51.2,
+      "end": 51.374
+    },
+    {
+      "text": "projection",
+      "start": 51.455,
+      "end": 51.954
+    },
+    {
+      "text": "over",
+      "start": 52.036,
+      "end": 52.233
+    },
+    {
+      "text": "the",
+      "start": 52.268,
+      "end": 52.337
+    },
+    {
+      "text": "kernel's",
+      "start": 52.396,
+      "end": 52.813
+    },
+    {
+      "text": "generic",
+      "start": 52.86,
+      "end": 53.278
+    },
+    {
+      "text": "process",
+      "start": 53.336,
+      "end": 53.742
+    },
+    {
+      "text": "supervisor.",
+      "start": 53.777,
+      "end": 54.648
+    },
+    {
+      "text": "A",
+      "start": 55.089,
+      "end": 55.17
+    },
+    {
+      "text": "driver",
+      "start": 55.24,
+      "end": 55.565
+    },
+    {
+      "text": "claims",
+      "start": 55.623,
+      "end": 55.937
+    },
+    {
+      "text": "the",
+      "start": 55.983,
+      "end": 56.053
+    },
+    {
+      "text": "run,",
+      "start": 56.111,
+      "end": 56.494
+    },
+    {
+      "text": "restores",
+      "start": 56.645,
+      "end": 57.04
+    },
+    {
+      "text": "a",
+      "start": 57.074,
+      "end": 57.109
+    },
+    {
+      "text": "checkpoint",
+      "start": 57.156,
+      "end": 57.655
+    },
+    {
+      "text": "if",
+      "start": 57.701,
+      "end": 57.771
+    },
+    {
+      "text": "one",
+      "start": 57.841,
+      "end": 57.968
+    },
+    {
+      "text": "exists,",
+      "start": 58.003,
+      "end": 58.642
+    },
+    {
+      "text": "and",
+      "start": 58.793,
+      "end": 58.944
+    },
+    {
+      "text": "hands",
+      "start": 59.013,
+      "end": 59.234
+    },
+    {
+      "text": "it",
+      "start": 59.28,
+      "end": 59.35
+    },
+    {
+      "text": "to",
+      "start": 59.373,
+      "end": 59.42
+    },
+    {
+      "text": "the",
+      "start": 59.478,
+      "end": 59.547
+    },
+    {
+      "text": "agent",
+      "start": 59.617,
+      "end": 59.907
+    },
+    {
+      "text": "loop.",
+      "start": 59.942,
+      "end": 60.348
+    },
+    {
+      "text": "The",
+      "start": 60.789,
+      "end": 60.894
+    },
+    {
+      "text": "loop",
+      "start": 60.964,
+      "end": 61.149
+    },
+    {
+      "text": "is",
+      "start": 61.207,
+      "end": 61.277
+    },
+    {
+      "text": "ten",
+      "start": 61.335,
+      "end": 61.521
+    },
+    {
+      "text": "ordered",
+      "start": 61.579,
+      "end": 61.834
+    },
+    {
+      "text": "stages",
+      "start": 61.881,
+      "end": 62.438
+    },
+    {
+      "text": "—",
+      "start": 62.566,
+      "end": 62.612
+    },
+    {
+      "text": "budget,",
+      "start": 62.693,
+      "end": 63.286
+    },
+    {
+      "text": "input,",
+      "start": 63.436,
+      "end": 63.947
+    },
+    {
+      "text": "prompt,",
+      "start": 64.063,
+      "end": 64.597
+    },
+    {
+      "text": "model,",
+      "start": 64.748,
+      "end": 65.282
+    },
+    {
+      "text": "reply",
+      "start": 65.399,
+      "end": 65.724
+    },
+    {
+      "text": "admission,",
+      "start": 65.782,
+      "end": 66.304
+    },
+    {
+      "text": "assistant",
+      "start": 66.339,
+      "end": 66.838
+    },
+    {
+      "text": "reply,",
+      "start": 66.896,
+      "end": 67.523
+    },
+    {
+      "text": "capabilities,",
+      "start": 67.697,
+      "end": 68.568
+    },
+    {
+      "text": "post-capability,",
+      "start": 68.684,
+      "end": 69.845
+    },
+    {
+      "text": "stop,",
+      "start": 70.019,
+      "end": 70.472
+    },
+    {
+      "text": "exit.",
+      "start": 70.542,
+      "end": 71.192
+    },
+    {
+      "text": "And",
+      "start": 71.633,
+      "end": 71.772
+    },
+    {
+      "text": "here's",
+      "start": 71.83,
+      "end": 72.016
+    },
+    {
+      "text": "the",
+      "start": 72.051,
+      "end": 72.121
+    },
+    {
+      "text": "part",
+      "start": 72.167,
+      "end": 72.365
+    },
+    {
+      "text": "that",
+      "start": 72.399,
+      "end": 72.515
+    },
+    {
+      "text": "matters:",
+      "start": 72.562,
+      "end": 73.142
+    },
+    {
+      "text": "the",
+      "start": 73.351,
+      "end": 73.444
+    },
+    {
+      "text": "loop",
+      "start": 73.502,
+      "end": 73.688
+    },
+    {
+      "text": "is",
+      "start": 73.746,
+      "end": 73.816
+    },
+    {
+      "text": "replaceable",
+      "start": 73.874,
+      "end": 74.396
+    },
+    {
+      "text": "behavior",
+      "start": 74.431,
+      "end": 74.849
+    },
+    {
+      "text": "behind",
+      "start": 74.907,
+      "end": 75.197
+    },
+    {
+      "text": "a",
+      "start": 75.244,
+      "end": 75.279
+    },
+    {
+      "text": "driver",
+      "start": 75.325,
+      "end": 75.639
+    },
+    {
+      "text": "contract.",
+      "start": 75.697,
+      "end": 76.347
+    },
+    {
+      "text": "It",
+      "start": 76.626,
+      "end": 76.753
+    },
+    {
+      "text": "is",
+      "start": 76.8,
+      "end": 76.881
+    },
+    {
+      "text": "not",
+      "start": 76.939,
+      "end": 77.079
+    },
+    {
+      "text": "the",
+      "start": 77.113,
+      "end": 77.183
+    },
+    {
+      "text": "security",
+      "start": 77.229,
+      "end": 77.694
+    },
+    {
+      "text": "perimeter.",
+      "start": 77.752,
+      "end": 78.46
+    },
+    {
+      "text": "The",
+      "start": 78.971,
+      "end": 79.075
+    },
+    {
+      "text": "perimeter",
+      "start": 79.145,
+      "end": 79.61
+    },
+    {
+      "text": "is",
+      "start": 79.668,
+      "end": 79.749
+    },
+    {
+      "text": "the",
+      "start": 79.795,
+      "end": 79.865
+    },
+    {
+      "text": "capability",
+      "start": 79.911,
+      "end": 80.492
+    },
+    {
+      "text": "host.",
+      "start": 80.55,
+      "end": 81.003
+    },
+    {
+      "text": "Every",
+      "start": 81.177,
+      "end": 81.479
+    },
+    {
+      "text": "tool",
+      "start": 81.525,
+      "end": 81.757
+    },
+    {
+      "text": "call",
+      "start": 81.839,
+      "end": 82.129
+    },
+    {
+      "text": "crosses",
+      "start": 82.222,
+      "end": 82.593
+    },
+    {
+      "text": "the",
+      "start": 82.651,
+      "end": 82.721
+    },
+    {
+      "text": "same",
+      "start": 82.767,
+      "end": 83
+    },
+    {
+      "text": "stages:",
+      "start": 83.034,
+      "end": 83.754
+    },
+    {
+      "text": "trust",
+      "start": 84.079,
+      "end": 84.474
+    },
+    {
+      "text": "computed",
+      "start": 84.544,
+      "end": 85.008
+    },
+    {
+      "text": "in",
+      "start": 85.055,
+      "end": 85.113
+    },
+    {
+      "text": "the",
+      "start": 85.147,
+      "end": 85.217
+    },
+    {
+      "text": "kernel,",
+      "start": 85.264,
+      "end": 85.844
+    },
+    {
+      "text": "not",
+      "start": 86.088,
+      "end": 86.262
+    },
+    {
+      "text": "stamped",
+      "start": 86.32,
+      "end": 86.657
+    },
+    {
+      "text": "by",
+      "start": 86.703,
+      "end": 86.808
+    },
+    {
+      "text": "the",
+      "start": 86.866,
+      "end": 86.935
+    },
+    {
+      "text": "caller;",
+      "start": 86.982,
+      "end": 87.493
+    },
+    {
+      "text": "runtime",
+      "start": 87.876,
+      "end": 88.352
+    },
+    {
+      "text": "policy;",
+      "start": 88.387,
+      "end": 89.095
+    },
+    {
+      "text": "credential",
+      "start": 89.304,
+      "end": 89.803
+    },
+    {
+      "text": "preflight",
+      "start": 89.873,
+      "end": 90.395
+    },
+    {
+      "text": "—",
+      "start": 90.569,
+      "end": 90.639
+    },
+    {
+      "text": "before",
+      "start": 90.848,
+      "end": 91.208
+    },
+    {
+      "text": "approvals,",
+      "start": 91.254,
+      "end": 91.997
+    },
+    {
+      "text": "so",
+      "start": 92.171,
+      "end": 92.299
+    },
+    {
+      "text": "a",
+      "start": 92.357,
+      "end": 92.38
+    },
+    {
+      "text": "human's",
+      "start": 92.427,
+      "end": 92.775
+    },
+    {
+      "text": "yes",
+      "start": 92.833,
+      "end": 93.112
+    },
+    {
+      "text": "is",
+      "start": 93.17,
+      "end": 93.286
+    },
+    {
+      "text": "never",
+      "start": 93.332,
+      "end": 93.518
+    },
+    {
+      "text": "wasted",
+      "start": 93.576,
+      "end": 93.948
+    },
+    {
+      "text": "on",
+      "start": 94.006,
+      "end": 94.075
+    },
+    {
+      "text": "a",
+      "start": 94.11,
+      "end": 94.145
+    },
+    {
+      "text": "call",
+      "start": 94.203,
+      "end": 94.435
+    },
+    {
+      "text": "that",
+      "start": 94.493,
+      "end": 94.609
+    },
+    {
+      "text": "can't",
+      "start": 94.644,
+      "end": 94.888
+    },
+    {
+      "text": "run;",
+      "start": 94.946,
+      "end": 95.445
+    },
+    {
+      "text": "authorization",
+      "start": 95.886,
+      "end": 96.606
+    },
+    {
+      "text": "with",
+      "start": 96.664,
+      "end": 96.804
+    },
+    {
+      "text": "origin",
+      "start": 96.862,
+      "end": 97.233
+    },
+    {
+      "text": "gates;",
+      "start": 97.303,
+      "end": 97.837
+    },
+    {
+      "text": "approvals;",
+      "start": 98.65,
+      "end": 99.427
+    },
+    {
+      "text": "obligations",
+      "start": 99.671,
+      "end": 100.449
+    },
+    {
+      "text": "—",
+      "start": 100.6,
+      "end": 100.705
+    },
+    {
+      "text": "reserve",
+      "start": 100.797,
+      "end": 101.215
+    },
+    {
+      "text": "resources,",
+      "start": 101.262,
+      "end": 101.958
+    },
+    {
+      "text": "inject",
+      "start": 102.074,
+      "end": 102.562
+    },
+    {
+      "text": "a",
+      "start": 102.609,
+      "end": 102.632
+    },
+    {
+      "text": "secret",
+      "start": 102.701,
+      "end": 103.038
+    },
+    {
+      "text": "exactly",
+      "start": 103.096,
+      "end": 103.572
+    },
+    {
+      "text": "once,",
+      "start": 103.642,
+      "end": 104.118
+    },
+    {
+      "text": "redact",
+      "start": 104.292,
+      "end": 104.675
+    },
+    {
+      "text": "output;",
+      "start": 104.733,
+      "end": 105.314
+    },
+    {
+      "text": "and",
+      "start": 105.488,
+      "end": 105.639
+    },
+    {
+      "text": "then",
+      "start": 105.685,
+      "end": 105.848
+    },
+    {
+      "text": "the",
+      "start": 105.906,
+      "end": 105.975
+    },
+    {
+      "text": "seal.",
+      "start": 106.033,
+      "end": 106.556
+    },
+    {
+      "text": "Authorization",
+      "start": 107.16,
+      "end": 107.938
+    },
+    {
+      "text": "mints",
+      "start": 108.019,
+      "end": 108.298
+    },
+    {
+      "text": "an",
+      "start": 108.356,
+      "end": 108.437
+    },
+    {
+      "text": "Authorized",
+      "start": 108.495,
+      "end": 108.959
+    },
+    {
+      "text": "value",
+      "start": 109.006,
+      "end": 109.447
+    },
+    {
+      "text": "only",
+      "start": 109.563,
+      "end": 109.807
+    },
+    {
+      "text": "the",
+      "start": 109.853,
+      "end": 109.923
+    },
+    {
+      "text": "capability",
+      "start": 109.969,
+      "end": 110.55
+    },
+    {
+      "text": "host",
+      "start": 110.608,
+      "end": 110.875
+    },
+    {
+      "text": "can",
+      "start": 110.933,
+      "end": 111.061
+    },
+    {
+      "text": "construct,",
+      "start": 111.119,
+      "end": 111.85
+    },
+    {
+      "text": "with",
+      "start": 112.059,
+      "end": 112.21
+    },
+    {
+      "text": "a",
+      "start": 112.245,
+      "end": 112.268
+    },
+    {
+      "text": "frozen",
+      "start": 112.326,
+      "end": 112.675
+    },
+    {
+      "text": "expiry.",
+      "start": 112.733,
+      "end": 113.534
+    },
+    {
+      "text": "Dispatch",
+      "start": 114.137,
+      "end": 114.648
+    },
+    {
+      "text": "sits",
+      "start": 114.706,
+      "end": 114.95
+    },
+    {
+      "text": "below",
+      "start": 114.997,
+      "end": 115.252
+    },
+    {
+      "text": "authorization",
+      "start": 115.333,
+      "end": 116.146
+    },
+    {
+      "text": "and",
+      "start": 116.297,
+      "end": 116.459
+    },
+    {
+      "text": "routes",
+      "start": 116.529,
+      "end": 116.785
+    },
+    {
+      "text": "the",
+      "start": 116.831,
+      "end": 116.901
+    },
+    {
+      "text": "sealed",
+      "start": 116.959,
+      "end": 117.261
+    },
+    {
+      "text": "request",
+      "start": 117.33,
+      "end": 117.737
+    },
+    {
+      "text": "to",
+      "start": 117.771,
+      "end": 117.829
+    },
+    {
+      "text": "one",
+      "start": 117.911,
+      "end": 118.027
+    },
+    {
+      "text": "of",
+      "start": 118.062,
+      "end": 118.108
+    },
+    {
+      "text": "four",
+      "start": 118.178,
+      "end": 118.41
+    },
+    {
+      "text": "closed",
+      "start": 118.468,
+      "end": 118.816
+    },
+    {
+      "text": "lanes:",
+      "start": 118.863,
+      "end": 119.466
+    },
+    {
+      "text": "first-party,",
+      "start": 119.85,
+      "end": 120.802
+    },
+    {
+      "text": "WASM,",
+      "start": 121.011,
+      "end": 121.591
+    },
+    {
+      "text": "MCP,",
+      "start": 121.765,
+      "end": 122.624
+    },
+    {
+      "text": "or",
+      "start": 122.798,
+      "end": 122.926
+    },
+    {
+      "text": "a",
+      "start": 122.984,
+      "end": 123.007
+    },
+    {
+      "text": "sandboxed",
+      "start": 123.054,
+      "end": 123.576
+    },
+    {
+      "text": "process.",
+      "start": 123.634,
+      "end": 124.354
+    },
+    {
+      "text": "A",
+      "start": 124.795,
+      "end": 124.876
+    },
+    {
+      "text": "manifest",
+      "start": 124.958,
+      "end": 125.422
+    },
+    {
+      "text": "can",
+      "start": 125.48,
+      "end": 125.596
+    },
+    {
+      "text": "never",
+      "start": 125.643,
+      "end": 125.828
+    },
+    {
+      "text": "request",
+      "start": 125.887,
+      "end": 126.246
+    },
+    {
+      "text": "the",
+      "start": 126.293,
+      "end": 126.363
+    },
+    {
+      "text": "trusted",
+      "start": 126.397,
+      "end": 126.769
+    },
+    {
+      "text": "runtimes",
+      "start": 126.827,
+      "end": 127.407
+    },
+    {
+      "text": "—",
+      "start": 127.524,
+      "end": 127.57
+    },
+    {
+      "text": "those",
+      "start": 127.814,
+      "end": 128.081
+    },
+    {
+      "text": "variants",
+      "start": 128.116,
+      "end": 128.534
+    },
+    {
+      "text": "literally",
+      "start": 128.592,
+      "end": 128.963
+    },
+    {
+      "text": "don't",
+      "start": 129.021,
+      "end": 129.242
+    },
+    {
+      "text": "deserialize.",
+      "start": 129.288,
+      "end": 130.298
+    },
+    {
+      "text": "Everything",
+      "start": 130.809,
+      "end": 131.192
+    },
+    {
+      "text": "that",
+      "start": 131.227,
+      "end": 131.332
+    },
+    {
+      "text": "happens",
+      "start": 131.378,
+      "end": 131.738
+    },
+    {
+      "text": "becomes",
+      "start": 131.808,
+      "end": 132.109
+    },
+    {
+      "text": "typed",
+      "start": 132.168,
+      "end": 132.458
+    },
+    {
+      "text": "events:",
+      "start": 132.493,
+      "end": 133.143
+    },
+    {
+      "text": "the",
+      "start": 133.584,
+      "end": 133.665
+    },
+    {
+      "text": "log",
+      "start": 133.723,
+      "end": 133.921
+    },
+    {
+      "text": "defines",
+      "start": 133.979,
+      "end": 134.385
+    },
+    {
+      "text": "vocabulary",
+      "start": 134.443,
+      "end": 135.035
+    },
+    {
+      "text": "with",
+      "start": 135.093,
+      "end": 135.221
+    },
+    {
+      "text": "redaction",
+      "start": 135.279,
+      "end": 135.732
+    },
+    {
+      "text": "at",
+      "start": 135.778,
+      "end": 135.848
+    },
+    {
+      "text": "construction,",
+      "start": 135.894,
+      "end": 136.672
+    },
+    {
+      "text": "one",
+      "start": 136.846,
+      "end": 137.044
+    },
+    {
+      "text": "store",
+      "start": 137.09,
+      "end": 137.357
+    },
+    {
+      "text": "makes",
+      "start": 137.392,
+      "end": 137.613
+    },
+    {
+      "text": "it",
+      "start": 137.659,
+      "end": 137.729
+    },
+    {
+      "text": "durable,",
+      "start": 137.764,
+      "end": 138.321
+    },
+    {
+      "text": "projections",
+      "start": 138.495,
+      "end": 139.076
+    },
+    {
+      "text": "replay",
+      "start": 139.157,
+      "end": 139.529
+    },
+    {
+      "text": "it",
+      "start": 139.563,
+      "end": 139.633
+    },
+    {
+      "text": "into",
+      "start": 139.679,
+      "end": 139.842
+    },
+    {
+      "text": "read",
+      "start": 139.935,
+      "end": 140.132
+    },
+    {
+      "text": "models,",
+      "start": 140.179,
+      "end": 140.713
+    },
+    {
+      "text": "streams",
+      "start": 140.922,
+      "end": 141.375
+    },
+    {
+      "text": "admit",
+      "start": 141.421,
+      "end": 141.676
+    },
+    {
+      "text": "subscribers.",
+      "start": 141.723,
+      "end": 142.582
+    },
+    {
+      "text": "One",
+      "start": 143.279,
+      "end": 143.511
+    },
+    {
+      "text": "direction,",
+      "start": 143.546,
+      "end": 144.289
+    },
+    {
+      "text": "no",
+      "start": 144.463,
+      "end": 144.602
+    },
+    {
+      "text": "second",
+      "start": 144.683,
+      "end": 145.02
+    },
+    {
+      "text": "writer.",
+      "start": 145.066,
+      "end": 145.612
+    },
+    {
+      "text": "And",
+      "start": 145.937,
+      "end": 146.065
+    },
+    {
+      "text": "the",
+      "start": 146.111,
+      "end": 146.181
+    },
+    {
+      "text": "project",
+      "start": 146.227,
+      "end": 146.622
+    },
+    {
+      "text": "rule",
+      "start": 146.68,
+      "end": 146.912
+    },
+    {
+      "text": "on",
+      "start": 146.959,
+      "end": 147.052
+    },
+    {
+      "text": "top:",
+      "start": 147.121,
+      "end": 147.563
+    },
+    {
+      "text": "LLM",
+      "start": 147.772,
+      "end": 148.178
+    },
+    {
+      "text": "data",
+      "start": 148.271,
+      "end": 148.654
+    },
+    {
+      "text": "is",
+      "start": 148.724,
+      "end": 148.84
+    },
+    {
+      "text": "never",
+      "start": 148.898,
+      "end": 149.084
+    },
+    {
+      "text": "deleted",
+      "start": 149.142,
+      "end": 149.652
+    },
+    {
+      "text": "—",
+      "start": 149.745,
+      "end": 149.815
+    },
+    {
+      "text": "timestamps",
+      "start": 149.885,
+      "end": 150.57
+    },
+    {
+      "text": "and",
+      "start": 150.604,
+      "end": 150.686
+    },
+    {
+      "text": "filters,",
+      "start": 150.755,
+      "end": 151.336
+    },
+    {
+      "text": "not",
+      "start": 151.51,
+      "end": 151.684
+    },
+    {
+      "text": "deletion.",
+      "start": 151.731,
+      "end": 152.381
+    },
+    {
+      "text": "Trust",
+      "start": 153.193,
+      "end": 153.519
+    },
+    {
+      "text": "is",
+      "start": 153.565,
+      "end": 153.646
+    },
+    {
+      "text": "enforced",
+      "start": 153.704,
+      "end": 154.145
+    },
+    {
+      "text": "by",
+      "start": 154.191,
+      "end": 154.284
+    },
+    {
+      "text": "the",
+      "start": 154.342,
+      "end": 154.412
+    },
+    {
+      "text": "compiler.",
+      "start": 154.459,
+      "end": 155.132
+    },
+    {
+      "text": "The",
+      "start": 155.376,
+      "end": 155.48
+    },
+    {
+      "text": "one",
+      "start": 155.561,
+      "end": 155.736
+    },
+    {
+      "text": "trusted",
+      "start": 155.782,
+      "end": 156.2
+    },
+    {
+      "text": "inbound",
+      "start": 156.27,
+      "end": 156.722
+    },
+    {
+      "text": "type",
+      "start": 156.781,
+      "end": 157.071
+    },
+    {
+      "text": "is",
+      "start": 157.129,
+      "end": 157.233
+    },
+    {
+      "text": "crate-private,",
+      "start": 157.291,
+      "end": 158.151
+    },
+    {
+      "text": "minted",
+      "start": 158.325,
+      "end": 158.673
+    },
+    {
+      "text": "at",
+      "start": 158.719,
+      "end": 158.789
+    },
+    {
+      "text": "exactly",
+      "start": 158.847,
+      "end": 159.253
+    },
+    {
+      "text": "one",
+      "start": 159.346,
+      "end": 159.532
+    },
+    {
+      "text": "production",
+      "start": 159.567,
+      "end": 160.031
+    },
+    {
+      "text": "site",
+      "start": 160.101,
+      "end": 160.472
+    },
+    {
+      "text": "—",
+      "start": 160.542,
+      "end": 160.612
+    },
+    {
+      "text": "the",
+      "start": 160.937,
+      "end": 161.03
+    },
+    {
+      "text": "scheduled-trigger",
+      "start": 161.088,
+      "end": 161.912
+    },
+    {
+      "text": "path",
+      "start": 161.97,
+      "end": 162.295
+    },
+    {
+      "text": "—",
+      "start": 162.446,
+      "end": 162.516
+    },
+    {
+      "text": "and",
+      "start": 162.76,
+      "end": 162.911
+    },
+    {
+      "text": "a",
+      "start": 162.969,
+      "end": 162.992
+    },
+    {
+      "text": "trigger",
+      "start": 163.038,
+      "end": 163.305
+    },
+    {
+      "text": "fire",
+      "start": 163.375,
+      "end": 163.712
+    },
+    {
+      "text": "runs",
+      "start": 163.758,
+      "end": 163.979
+    },
+    {
+      "text": "a",
+      "start": 164.014,
+      "end": 164.048
+    },
+    {
+      "text": "pinned",
+      "start": 164.106,
+      "end": 164.385
+    },
+    {
+      "text": "profile",
+      "start": 164.443,
+      "end": 164.942
+    },
+    {
+      "text": "that",
+      "start": 164.977,
+      "end": 165.105
+    },
+    {
+      "text": "can't",
+      "start": 165.151,
+      "end": 165.418
+    },
+    {
+      "text": "rewrite",
+      "start": 165.488,
+      "end": 165.952
+    },
+    {
+      "text": "the",
+      "start": 165.987,
+      "end": 166.057
+    },
+    {
+      "text": "triggers",
+      "start": 166.103,
+      "end": 166.417
+    },
+    {
+      "text": "themselves.",
+      "start": 166.463,
+      "end": 167.229
+    },
+    {
+      "text": "That's",
+      "start": 167.833,
+      "end": 168.123
+    },
+    {
+      "text": "the",
+      "start": 168.169,
+      "end": 168.251
+    },
+    {
+      "text": "shape:",
+      "start": 168.297,
+      "end": 168.727
+    },
+    {
+      "text": "authority",
+      "start": 168.843,
+      "end": 169.342
+    },
+    {
+      "text": "in",
+      "start": 169.377,
+      "end": 169.435
+    },
+    {
+      "text": "the",
+      "start": 169.481,
+      "end": 169.551
+    },
+    {
+      "text": "kernel,",
+      "start": 169.597,
+      "end": 170.073
+    },
+    {
+      "text": "behavior",
+      "start": 170.12,
+      "end": 170.584
+    },
+    {
+      "text": "in",
+      "start": 170.631,
+      "end": 170.689
+    },
+    {
+      "text": "the",
+      "start": 170.735,
+      "end": 170.805
+    },
+    {
+      "text": "loop,",
+      "start": 170.851,
+      "end": 171.246
+    },
+    {
+      "text": "mechanism",
+      "start": 171.49,
+      "end": 171.977
+    },
+    {
+      "text": "in",
+      "start": 172.024,
+      "end": 172.082
+    },
+    {
+      "text": "the",
+      "start": 172.117,
+      "end": 172.186
+    },
+    {
+      "text": "substrates,",
+      "start": 172.221,
+      "end": 172.895
+    },
+    {
+      "text": "and",
+      "start": 172.929,
+      "end": 173.069
+    },
+    {
+      "text": "a",
+      "start": 173.127,
+      "end": 173.15
+    },
+    {
+      "text": "seal",
+      "start": 173.208,
+      "end": 173.475
+    },
+    {
+      "text": "in",
+      "start": 173.556,
+      "end": 173.638
+    },
+    {
+      "text": "between.",
+      "start": 173.696,
+      "end": 174.311
+    },
+    {
+      "text": "Start",
+      "start": 174.752,
+      "end": 175.089
+    },
+    {
+      "text": "at",
+      "start": 175.124,
+      "end": 175.193
+    },
+    {
+      "text": "crates/AGENTS.md",
+      "start": 175.251,
+      "end": 177.19
+    },
+    {
+      "text": "—",
+      "start": 177.365,
+      "end": 177.492
+    },
+    {
+      "text": "and",
+      "start": 177.701,
+      "end": 177.841
+    },
+    {
+      "text": "read",
+      "start": 177.91,
+      "end": 178.096
+    },
+    {
+      "text": "the",
+      "start": 178.131,
+      "end": 178.2
+    },
+    {
+      "text": "contracts",
+      "start": 178.247,
+      "end": 178.711
+    },
+    {
+      "text": "before",
+      "start": 178.758,
+      "end": 179.094
+    },
+    {
+      "text": "the",
+      "start": 179.129,
+      "end": 179.199
+    },
+    {
+      "text": "code.",
+      "start": 179.257,
+      "end": 179.954
+    }
+  ]
+}

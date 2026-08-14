@@ -1,0 +1,520 @@
+{
+  "durationSeconds": 36.687,
+  "words": [
+    {
+      "text": "You",
+      "start": 0,
+      "end": 0.174
+    },
+    {
+      "text": "cut",
+      "start": 0.232,
+      "end": 0.406
+    },
+    {
+      "text": "a",
+      "start": 0.453,
+      "end": 0.476
+    },
+    {
+      "text": "release...",
+      "start": 0.534,
+      "end": 1.138
+    },
+    {
+      "text": "Now",
+      "start": 1.521,
+      "end": 1.73
+    },
+    {
+      "text": "comes",
+      "start": 1.8,
+      "end": 2.009
+    },
+    {
+      "text": "the",
+      "start": 2.055,
+      "end": 2.125
+    },
+    {
+      "text": "boring",
+      "start": 2.171,
+      "end": 2.473
+    },
+    {
+      "text": "part:",
+      "start": 2.531,
+      "end": 2.972
+    },
+    {
+      "text": "release",
+      "start": 3.181,
+      "end": 3.518
+    },
+    {
+      "text": "notes,",
+      "start": 3.576,
+      "end": 4.017
+    },
+    {
+      "text": "the",
+      "start": 4.098,
+      "end": 4.203
+    },
+    {
+      "text": "announcement",
+      "start": 4.238,
+      "end": 4.714
+    },
+    {
+      "text": "email,",
+      "start": 4.772,
+      "end": 5.259
+    },
+    {
+      "text": "the",
+      "start": 5.329,
+      "end": 5.445
+    },
+    {
+      "text": "thread.",
+      "start": 5.492,
+      "end": 5.979
+    },
+    {
+      "text": "Hand",
+      "start": 6.258,
+      "end": 6.478
+    },
+    {
+      "text": "it",
+      "start": 6.536,
+      "end": 6.606
+    },
+    {
+      "text": "to",
+      "start": 6.629,
+      "end": 6.676
+    },
+    {
+      "text": "your",
+      "start": 6.722,
+      "end": 6.838
+    },
+    {
+      "text": "agent.",
+      "start": 6.896,
+      "end": 7.442
+    },
+    {
+      "text": "A",
+      "start": 8.046,
+      "end": 8.127
+    },
+    {
+      "text": "routine",
+      "start": 8.22,
+      "end": 8.696
+    },
+    {
+      "text": "checks",
+      "start": 8.742,
+      "end": 9.021
+    },
+    {
+      "text": "your",
+      "start": 9.056,
+      "end": 9.183
+    },
+    {
+      "text": "repo",
+      "start": 9.265,
+      "end": 9.59
+    },
+    {
+      "text": "on",
+      "start": 9.671,
+      "end": 9.764
+    },
+    {
+      "text": "schedule",
+      "start": 9.834,
+      "end": 10.403
+    },
+    {
+      "text": "—",
+      "start": 10.472,
+      "end": 10.53
+    },
+    {
+      "text": "or",
+      "start": 10.913,
+      "end": 11.122
+    },
+    {
+      "text": "you",
+      "start": 11.204,
+      "end": 11.273
+    },
+    {
+      "text": "just",
+      "start": 11.355,
+      "end": 11.517
+    },
+    {
+      "text": "ask",
+      "start": 11.575,
+      "end": 11.773
+    },
+    {
+      "text": "when",
+      "start": 11.807,
+      "end": 11.947
+    },
+    {
+      "text": "the",
+      "start": 11.981,
+      "end": 12.051
+    },
+    {
+      "text": "tag",
+      "start": 12.086,
+      "end": 12.307
+    },
+    {
+      "text": "lands...",
+      "start": 12.376,
+      "end": 12.957
+    },
+    {
+      "text": "It",
+      "start": 13.34,
+      "end": 13.479
+    },
+    {
+      "text": "reads",
+      "start": 13.537,
+      "end": 13.793
+    },
+    {
+      "text": "the",
+      "start": 13.839,
+      "end": 13.909
+    },
+    {
+      "text": "pull",
+      "start": 13.955,
+      "end": 14.153
+    },
+    {
+      "text": "requests",
+      "start": 14.222,
+      "end": 14.651
+    },
+    {
+      "text": "behind",
+      "start": 14.709,
+      "end": 15
+    },
+    {
+      "text": "the",
+      "start": 15.046,
+      "end": 15.116
+    },
+    {
+      "text": "release,",
+      "start": 15.162,
+      "end": 15.662
+    },
+    {
+      "text": "checks",
+      "start": 15.836,
+      "end": 16.161
+    },
+    {
+      "text": "CI",
+      "start": 16.242,
+      "end": 16.579
+    },
+    {
+      "text": "passed,",
+      "start": 16.672,
+      "end": 17.148
+    },
+    {
+      "text": "and",
+      "start": 17.229,
+      "end": 17.368
+    },
+    {
+      "text": "writes",
+      "start": 17.415,
+      "end": 17.682
+    },
+    {
+      "text": "the",
+      "start": 17.728,
+      "end": 17.798
+    },
+    {
+      "text": "release",
+      "start": 17.856,
+      "end": 18.146
+    },
+    {
+      "text": "notes",
+      "start": 18.192,
+      "end": 18.413
+    },
+    {
+      "text": "on",
+      "start": 18.448,
+      "end": 18.541
+    },
+    {
+      "text": "GitHub",
+      "start": 18.622,
+      "end": 19.063
+    },
+    {
+      "text": "—",
+      "start": 19.272,
+      "end": 19.319
+    },
+    {
+      "text": "with",
+      "start": 19.644,
+      "end": 19.806
+    },
+    {
+      "text": "your",
+      "start": 19.853,
+      "end": 19.992
+    },
+    {
+      "text": "approval",
+      "start": 20.038,
+      "end": 20.422
+    },
+    {
+      "text": "on",
+      "start": 20.48,
+      "end": 20.561
+    },
+    {
+      "text": "the",
+      "start": 20.596,
+      "end": 20.665
+    },
+    {
+      "text": "publish...",
+      "start": 20.712,
+      "end": 21.35
+    },
+    {
+      "text": "Then",
+      "start": 21.675,
+      "end": 21.884
+    },
+    {
+      "text": "the",
+      "start": 21.943,
+      "end": 22.012
+    },
+    {
+      "text": "fan-out:",
+      "start": 22.059,
+      "end": 22.755
+    },
+    {
+      "text": "an",
+      "start": 22.999,
+      "end": 23.127
+    },
+    {
+      "text": "email",
+      "start": 23.196,
+      "end": 23.556
+    },
+    {
+      "text": "drafted",
+      "start": 23.626,
+      "end": 24.044
+    },
+    {
+      "text": "in",
+      "start": 24.09,
+      "end": 24.148
+    },
+    {
+      "text": "your",
+      "start": 24.195,
+      "end": 24.311
+    },
+    {
+      "text": "Gmail,",
+      "start": 24.369,
+      "end": 25.042
+    },
+    {
+      "text": "a",
+      "start": 25.286,
+      "end": 25.356
+    },
+    {
+      "text": "thread",
+      "start": 25.425,
+      "end": 25.681
+    },
+    {
+      "text": "delivered",
+      "start": 25.739,
+      "end": 26.087
+    },
+    {
+      "text": "to",
+      "start": 26.11,
+      "end": 26.157
+    },
+    {
+      "text": "your",
+      "start": 26.215,
+      "end": 26.331
+    },
+    {
+      "text": "chat,",
+      "start": 26.389,
+      "end": 26.854
+    },
+    {
+      "text": "ready",
+      "start": 26.97,
+      "end": 27.19
+    },
+    {
+      "text": "to",
+      "start": 27.237,
+      "end": 27.295
+    },
+    {
+      "text": "post...",
+      "start": 27.376,
+      "end": 28.003
+    },
+    {
+      "text": "The",
+      "start": 28.607,
+      "end": 28.723
+    },
+    {
+      "text": "voice",
+      "start": 28.781,
+      "end": 29.013
+    },
+    {
+      "text": "is",
+      "start": 29.036,
+      "end": 29.117
+    },
+    {
+      "text": "yours",
+      "start": 29.175,
+      "end": 29.57
+    },
+    {
+      "text": "—",
+      "start": 29.744,
+      "end": 29.791
+    },
+    {
+      "text": "the",
+      "start": 30.035,
+      "end": 30.139
+    },
+    {
+      "text": "format",
+      "start": 30.197,
+      "end": 30.569
+    },
+    {
+      "text": "lives",
+      "start": 30.638,
+      "end": 30.87
+    },
+    {
+      "text": "in",
+      "start": 30.917,
+      "end": 30.975
+    },
+    {
+      "text": "a",
+      "start": 31.01,
+      "end": 31.045
+    },
+    {
+      "text": "skill,",
+      "start": 31.114,
+      "end": 31.66
+    },
+    {
+      "text": "a",
+      "start": 31.776,
+      "end": 31.834
+    },
+    {
+      "text": "Markdown",
+      "start": 31.95,
+      "end": 32.438
+    },
+    {
+      "text": "playbook",
+      "start": 32.507,
+      "end": 32.937
+    },
+    {
+      "text": "you",
+      "start": 32.983,
+      "end": 33.053
+    },
+    {
+      "text": "write",
+      "start": 33.111,
+      "end": 33.332
+    },
+    {
+      "text": "once.",
+      "start": 33.378,
+      "end": 33.843
+    },
+    {
+      "text": "Tag",
+      "start": 34.353,
+      "end": 34.62
+    },
+    {
+      "text": "it",
+      "start": 34.667,
+      "end": 34.737
+    },
+    {
+      "text": "once...",
+      "start": 34.806,
+      "end": 35.282
+    },
+    {
+      "text": "Announce",
+      "start": 35.375,
+      "end": 35.747
+    },
+    {
+      "text": "it",
+      "start": 35.781,
+      "end": 35.851
+    },
+    {
+      "text": "everywhere.",
+      "start": 35.898,
+      "end": 36.687
+    }
+  ]
+}

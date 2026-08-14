@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+.env
+
+# Rendered videos stay out of git; generated voiceover audio in public/audio IS
+# committed so renders are reproducible without an ElevenLabs key.
+out
+
+# Raw console-session capture (source material; the cut clips in public/demo
+# are what renders need — the raw recording stays local).
+art/capture-src/

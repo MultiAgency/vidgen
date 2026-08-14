@@ -1,0 +1,585 @@
+{
+  "durationSeconds": 47.461,
+  "words": [
+    {
+      "text": "Skills,",
+      "start": 0,
+      "end": 0.58
+    },
+    {
+      "text": "tools,",
+      "start": 0.662,
+      "end": 1.242
+    },
+    {
+      "text": "use",
+      "start": 1.335,
+      "end": 1.544
+    },
+    {
+      "text": "cases",
+      "start": 1.591,
+      "end": 2.032
+    },
+    {
+      "text": "—",
+      "start": 2.206,
+      "end": 2.403
+    },
+    {
+      "text": "IronClaw",
+      "start": 2.519,
+      "end": 3.053
+    },
+    {
+      "text": "users",
+      "start": 3.135,
+      "end": 3.46
+    },
+    {
+      "text": "mix",
+      "start": 3.541,
+      "end": 3.75
+    },
+    {
+      "text": "these",
+      "start": 3.808,
+      "end": 4.017
+    },
+    {
+      "text": "up",
+      "start": 4.052,
+      "end": 4.168
+    },
+    {
+      "text": "constantly.",
+      "start": 4.238,
+      "end": 5.039
+    },
+    {
+      "text": "Here's",
+      "start": 5.55,
+      "end": 5.84
+    },
+    {
+      "text": "the",
+      "start": 5.886,
+      "end": 5.956
+    },
+    {
+      "text": "difference",
+      "start": 6.002,
+      "end": 6.351
+    },
+    {
+      "text": "in",
+      "start": 6.374,
+      "end": 6.444
+    },
+    {
+      "text": "sixty",
+      "start": 6.513,
+      "end": 6.838
+    },
+    {
+      "text": "seconds.",
+      "start": 6.908,
+      "end": 7.512
+    },
+    {
+      "text": "A",
+      "start": 7.755,
+      "end": 7.872
+    },
+    {
+      "text": "tool",
+      "start": 7.941,
+      "end": 8.173
+    },
+    {
+      "text": "is",
+      "start": 8.231,
+      "end": 8.29
+    },
+    {
+      "text": "something",
+      "start": 8.336,
+      "end": 8.603
+    },
+    {
+      "text": "your",
+      "start": 8.649,
+      "end": 8.777
+    },
+    {
+      "text": "agent",
+      "start": 8.835,
+      "end": 9.125
+    },
+    {
+      "text": "can",
+      "start": 9.183,
+      "end": 9.311
+    },
+    {
+      "text": "do:",
+      "start": 9.369,
+      "end": 9.799
+    },
+    {
+      "text": "send",
+      "start": 10.24,
+      "end": 10.461
+    },
+    {
+      "text": "a",
+      "start": 10.519,
+      "end": 10.542
+    },
+    {
+      "text": "Slack",
+      "start": 10.588,
+      "end": 10.832
+    },
+    {
+      "text": "message,",
+      "start": 10.89,
+      "end": 11.413
+    },
+    {
+      "text": "open",
+      "start": 11.529,
+      "end": 11.796
+    },
+    {
+      "text": "a",
+      "start": 11.831,
+      "end": 11.854
+    },
+    {
+      "text": "pull",
+      "start": 11.9,
+      "end": 12.086
+    },
+    {
+      "text": "request,",
+      "start": 12.156,
+      "end": 12.736
+    },
+    {
+      "text": "read",
+      "start": 12.945,
+      "end": 13.142
+    },
+    {
+      "text": "a",
+      "start": 13.177,
+      "end": 13.201
+    },
+    {
+      "text": "spreadsheet.",
+      "start": 13.247,
+      "end": 14.025
+    },
+    {
+      "text": "Tools",
+      "start": 14.838,
+      "end": 15.232
+    },
+    {
+      "text": "run",
+      "start": 15.29,
+      "end": 15.476
+    },
+    {
+      "text": "sandboxed,",
+      "start": 15.557,
+      "end": 16.324
+    },
+    {
+      "text": "and",
+      "start": 16.416,
+      "end": 16.556
+    },
+    {
+      "text": "every",
+      "start": 16.625,
+      "end": 16.834
+    },
+    {
+      "text": "call",
+      "start": 16.904,
+      "end": 17.159
+    },
+    {
+      "text": "passes",
+      "start": 17.229,
+      "end": 17.601
+    },
+    {
+      "text": "through",
+      "start": 17.636,
+      "end": 17.868
+    },
+    {
+      "text": "a",
+      "start": 17.903,
+      "end": 17.926
+    },
+    {
+      "text": "security",
+      "start": 17.984,
+      "end": 18.483
+    },
+    {
+      "text": "boundary.",
+      "start": 18.553,
+      "end": 19.226
+    },
+    {
+      "text": "A",
+      "start": 19.667,
+      "end": 19.749
+    },
+    {
+      "text": "skill",
+      "start": 19.841,
+      "end": 20.12
+    },
+    {
+      "text": "is",
+      "start": 20.19,
+      "end": 20.271
+    },
+    {
+      "text": "something",
+      "start": 20.306,
+      "end": 20.584
+    },
+    {
+      "text": "your",
+      "start": 20.631,
+      "end": 20.77
+    },
+    {
+      "text": "agent",
+      "start": 20.817,
+      "end": 21.165
+    },
+    {
+      "text": "knows:",
+      "start": 21.223,
+      "end": 21.815
+    },
+    {
+      "text": "a",
+      "start": 22.094,
+      "end": 22.152
+    },
+    {
+      "text": "playbook,",
+      "start": 22.233,
+      "end": 22.767
+    },
+    {
+      "text": "written",
+      "start": 22.814,
+      "end": 23.115
+    },
+    {
+      "text": "in",
+      "start": 23.162,
+      "end": 23.232
+    },
+    {
+      "text": "plain",
+      "start": 23.301,
+      "end": 23.557
+    },
+    {
+      "text": "Markdown,",
+      "start": 23.626,
+      "end": 24.311
+    },
+    {
+      "text": "that",
+      "start": 24.404,
+      "end": 24.567
+    },
+    {
+      "text": "teaches",
+      "start": 24.601,
+      "end": 24.938
+    },
+    {
+      "text": "it",
+      "start": 24.996,
+      "end": 25.066
+    },
+    {
+      "text": "how",
+      "start": 25.112,
+      "end": 25.228
+    },
+    {
+      "text": "to",
+      "start": 25.275,
+      "end": 25.333
+    },
+    {
+      "text": "handle",
+      "start": 25.403,
+      "end": 25.681
+    },
+    {
+      "text": "a",
+      "start": 25.716,
+      "end": 25.751
+    },
+    {
+      "text": "job",
+      "start": 25.809,
+      "end": 26.099
+    },
+    {
+      "text": "—",
+      "start": 26.273,
+      "end": 26.413
+    },
+    {
+      "text": "your",
+      "start": 26.738,
+      "end": 26.9
+    },
+    {
+      "text": "release",
+      "start": 26.947,
+      "end": 27.237
+    },
+    {
+      "text": "process,",
+      "start": 27.283,
+      "end": 28.015
+    },
+    {
+      "text": "your",
+      "start": 28.131,
+      "end": 28.27
+    },
+    {
+      "text": "report",
+      "start": 28.317,
+      "end": 28.677
+    },
+    {
+      "text": "format,",
+      "start": 28.735,
+      "end": 29.35
+    },
+    {
+      "text": "your",
+      "start": 29.466,
+      "end": 29.617
+    },
+    {
+      "text": "rules.",
+      "start": 29.675,
+      "end": 30.313
+    },
+    {
+      "text": "And",
+      "start": 31.01,
+      "end": 31.161
+    },
+    {
+      "text": "a",
+      "start": 31.207,
+      "end": 31.242
+    },
+    {
+      "text": "use",
+      "start": 31.323,
+      "end": 31.532
+    },
+    {
+      "text": "case?",
+      "start": 31.579,
+      "end": 32.043
+    },
+    {
+      "text": "That's",
+      "start": 32.426,
+      "end": 32.693
+    },
+    {
+      "text": "what",
+      "start": 32.717,
+      "end": 32.844
+    },
+    {
+      "text": "you",
+      "start": 32.891,
+      "end": 32.972
+    },
+    {
+      "text": "actually",
+      "start": 33.042,
+      "end": 33.367
+    },
+    {
+      "text": "wanted:",
+      "start": 33.425,
+      "end": 34.017
+    },
+    {
+      "text": "a",
+      "start": 34.528,
+      "end": 34.574
+    },
+    {
+      "text": "morning",
+      "start": 34.656,
+      "end": 34.969
+    },
+    {
+      "text": "briefing,",
+      "start": 35.027,
+      "end": 35.619
+    },
+    {
+      "text": "a",
+      "start": 35.747,
+      "end": 35.805
+    },
+    {
+      "text": "portfolio",
+      "start": 35.875,
+      "end": 36.455
+    },
+    {
+      "text": "monitor,",
+      "start": 36.502,
+      "end": 37.128
+    },
+    {
+      "text": "a",
+      "start": 37.372,
+      "end": 37.442
+    },
+    {
+      "text": "Telegram",
+      "start": 37.523,
+      "end": 37.953
+    },
+    {
+      "text": "assistant.",
+      "start": 37.999,
+      "end": 38.742
+    },
+    {
+      "text": "Use",
+      "start": 39.253,
+      "end": 39.497
+    },
+    {
+      "text": "cases",
+      "start": 39.543,
+      "end": 39.926
+    },
+    {
+      "text": "are",
+      "start": 39.973,
+      "end": 40.054
+    },
+    {
+      "text": "just",
+      "start": 40.077,
+      "end": 40.24
+    },
+    {
+      "text": "skills",
+      "start": 40.286,
+      "end": 40.681
+    },
+    {
+      "text": "and",
+      "start": 40.716,
+      "end": 40.809
+    },
+    {
+      "text": "tools",
+      "start": 40.867,
+      "end": 41.227
+    },
+    {
+      "text": "composed",
+      "start": 41.285,
+      "end": 41.738
+    },
+    {
+      "text": "together.",
+      "start": 41.761,
+      "end": 42.376
+    },
+    {
+      "text": "Teach",
+      "start": 42.817,
+      "end": 43.096
+    },
+    {
+      "text": "it",
+      "start": 43.142,
+      "end": 43.212
+    },
+    {
+      "text": "with",
+      "start": 43.247,
+      "end": 43.363
+    },
+    {
+      "text": "skills.",
+      "start": 43.409,
+      "end": 44.083
+    },
+    {
+      "text": "Equip",
+      "start": 44.408,
+      "end": 44.745
+    },
+    {
+      "text": "it",
+      "start": 44.791,
+      "end": 44.861
+    },
+    {
+      "text": "with",
+      "start": 44.896,
+      "end": 45.023
+    },
+    {
+      "text": "tools.",
+      "start": 45.081,
+      "end": 45.685
+    },
+    {
+      "text": "Ship",
+      "start": 46.01,
+      "end": 46.266
+    },
+    {
+      "text": "the",
+      "start": 46.335,
+      "end": 46.405
+    },
+    {
+      "text": "use",
+      "start": 46.486,
+      "end": 46.672
+    },
+    {
+      "text": "case.",
+      "start": 46.718,
+      "end": 47.461
+    }
+  ]
+}

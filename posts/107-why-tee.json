@@ -1,0 +1,25 @@
+{
+  "slug": "107-why-tee",
+  "title": "Why Your Agent Needs a TEE",
+  "tagline": "Hardware-enforced privacy for AI agents",
+  "outro": "Not even the host can peek.",
+  "accent": "#8b5cf6",
+  "script": "Your AI agent knows everything about you. Your messages, your calendar, your keys. So here's the uncomfortable question: who can see what it sees? On an ordinary server, the answer is: whoever runs the machine. A trusted execution environment changes that. A TEE is a hardware-sealed vault inside the processor. Code and data inside it are encrypted in memory — the operating system can't read them, the cloud provider can't read them, even the machine's own administrator can't read them. And the hardware can prove what code is running, before you send it a single secret. That's the standard an agent handling your real life should meet: not trust me — verify me. IronClaw was built for exactly that world.",
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 52,
+  "claims": [
+    {
+      "text": "your agent holds messages, calendar, keys (extension access scope)",
+      "source": "crates/extensions/packages/github/manifest.toml"
+    },
+    {
+      "text": "key management designed for TEE-resident KMS",
+      "source": "crates/substrates/ironclaw_filesystem/src/hsm.rs"
+    }
+  ]
+}

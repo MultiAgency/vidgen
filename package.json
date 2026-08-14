@@ -1,0 +1,42 @@
+{
+  "name": "ironclaw-video-kit",
+  "version": "1.0.0",
+  "description": "IronClaw creator video kit \u2014 animated mascot, ElevenLabs voiceover, demo-footage compositing",
+  "private": true,
+  "license": "MIT OR Apache-2.0",
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "@remotion/cli": "4.0.499",
+    "@remotion/media-utils": "4.0.499",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.499"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "prettier": "3.8.1",
+    "typescript": "5.7.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "voiceover": "node --env-file-if-exists=.env scripts/voiceover.mjs",
+    "voiceover:all": "node --env-file-if-exists=.env scripts/voiceover-all.mjs",
+    "poses": "python3 scripts/make-poses.py",
+    "clips": "node scripts/make-clips.mjs",
+    "clip-check": "python3 scripts/clip-check.py",
+    "bed": "node scripts/make-bed.mjs 200",
+    "render": "remotion render",
+    "ship": "node scripts/ship.mjs",
+    "qa": "node scripts/qa.mjs",
+    "lint": "tsc",
+    "lint:claims": "node scripts/lint-claims.mjs",
+    "sfx": "node scripts/make-sfx.mjs",
+    "qa:frames": "node scripts/qa-frames.mjs"
+  },
+  "overrides": {
+    "fast-uri": "^3.1.1",
+    "ws": "^8.21.0",
+    "esbuild": "^0.28.1"
+  }
+}

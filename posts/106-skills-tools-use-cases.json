@@ -1,0 +1,15 @@
+{
+  "slug": "106-skills-tools-use-cases",
+  "title": "Skills vs Tools vs Use Cases",
+  "tagline": "Three words IronClaw users mix up",
+  "outro": "Skills teach. Tools act. Use cases deliver.",
+  "accent": "#60a5fa",
+  "script": "Skills, tools, use cases — IronClaw users mix these up constantly. Here's the difference in sixty seconds. A tool is something your agent can do: send a Slack message, open a pull request, read a spreadsheet. Tools run sandboxed, and every call passes through a security boundary. A skill is something your agent knows: a playbook, written in plain Markdown, that teaches it how to handle a job — your release process, your report format, your rules. And a use case? That's what you actually wanted: a morning briefing, a portfolio monitor, a Telegram assistant. Use cases are just skills and tools composed together. Teach it with skills. Equip it with tools. Ship the use case.",
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 53
+}

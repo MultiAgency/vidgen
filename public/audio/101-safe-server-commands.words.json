@@ -1,0 +1,715 @@
+{
+  "durationSeconds": 57.493,
+  "words": [
+    {
+      "text": "Running",
+      "start": 0,
+      "end": 0.337
+    },
+    {
+      "text": "server",
+      "start": 0.406,
+      "end": 0.685
+    },
+    {
+      "text": "commands",
+      "start": 0.731,
+      "end": 1.103
+    },
+    {
+      "text": "from",
+      "start": 1.138,
+      "end": 1.265
+    },
+    {
+      "text": "a",
+      "start": 1.312,
+      "end": 1.335
+    },
+    {
+      "text": "chat",
+      "start": 1.393,
+      "end": 1.637
+    },
+    {
+      "text": "app",
+      "start": 1.707,
+      "end": 1.916
+    },
+    {
+      "text": "sounds",
+      "start": 2.159,
+      "end": 2.473
+    },
+    {
+      "text": "like",
+      "start": 2.508,
+      "end": 2.647
+    },
+    {
+      "text": "a",
+      "start": 2.67,
+      "end": 2.694
+    },
+    {
+      "text": "security",
+      "start": 2.752,
+      "end": 3.274
+    },
+    {
+      "text": "incident",
+      "start": 3.344,
+      "end": 3.773
+    },
+    {
+      "text": "waiting",
+      "start": 3.82,
+      "end": 4.122
+    },
+    {
+      "text": "to",
+      "start": 4.156,
+      "end": 4.214
+    },
+    {
+      "text": "happen.",
+      "start": 4.272,
+      "end": 4.818
+    },
+    {
+      "text": "So",
+      "start": 5.515,
+      "end": 5.677
+    },
+    {
+      "text": "here's",
+      "start": 5.747,
+      "end": 5.979
+    },
+    {
+      "text": "what",
+      "start": 6.014,
+      "end": 6.165
+    },
+    {
+      "text": "actually",
+      "start": 6.235,
+      "end": 6.641
+    },
+    {
+      "text": "happens",
+      "start": 6.699,
+      "end": 7.14
+    },
+    {
+      "text": "when",
+      "start": 7.221,
+      "end": 7.419
+    },
+    {
+      "text": "IronClaw",
+      "start": 7.488,
+      "end": 8.011
+    },
+    {
+      "text": "runs",
+      "start": 8.069,
+      "end": 8.324
+    },
+    {
+      "text": "one.",
+      "start": 8.394,
+      "end": 8.8
+    },
+    {
+      "text": "First,",
+      "start": 9.404,
+      "end": 9.857
+    },
+    {
+      "text": "the",
+      "start": 9.915,
+      "end": 10.043
+    },
+    {
+      "text": "environment:",
+      "start": 10.101,
+      "end": 10.937
+    },
+    {
+      "text": "the",
+      "start": 11.262,
+      "end": 11.378
+    },
+    {
+      "text": "agent's",
+      "start": 11.447,
+      "end": 11.842
+    },
+    {
+      "text": "shell",
+      "start": 11.877,
+      "end": 12.179
+    },
+    {
+      "text": "doesn't",
+      "start": 12.249,
+      "end": 12.539
+    },
+    {
+      "text": "inherit",
+      "start": 12.585,
+      "end": 12.957
+    },
+    {
+      "text": "yours.",
+      "start": 13.003,
+      "end": 13.595
+    },
+    {
+      "text": "It's",
+      "start": 14.408,
+      "end": 14.605
+    },
+    {
+      "text": "wiped",
+      "start": 14.663,
+      "end": 14.965
+    },
+    {
+      "text": "and",
+      "start": 15,
+      "end": 15.07
+    },
+    {
+      "text": "rebuilt",
+      "start": 15.128,
+      "end": 15.535
+    },
+    {
+      "text": "from",
+      "start": 15.581,
+      "end": 15.72
+    },
+    {
+      "text": "a",
+      "start": 15.755,
+      "end": 15.778
+    },
+    {
+      "text": "short",
+      "start": 15.848,
+      "end": 16.104
+    },
+    {
+      "text": "allowlist",
+      "start": 16.138,
+      "end": 16.73
+    },
+    {
+      "text": "—",
+      "start": 16.905,
+      "end": 16.974
+    },
+    {
+      "text": "no",
+      "start": 17.09,
+      "end": 17.218
+    },
+    {
+      "text": "keys,",
+      "start": 17.299,
+      "end": 17.799
+    },
+    {
+      "text": "no",
+      "start": 17.891,
+      "end": 18.019
+    },
+    {
+      "text": "tokens,",
+      "start": 18.089,
+      "end": 18.693
+    },
+    {
+      "text": "no",
+      "start": 18.867,
+      "end": 19.006
+    },
+    {
+      "text": "secrets,",
+      "start": 19.087,
+      "end": 19.726
+    },
+    {
+      "text": "because",
+      "start": 19.935,
+      "end": 20.225
+    },
+    {
+      "text": "nothing",
+      "start": 20.26,
+      "end": 20.527
+    },
+    {
+      "text": "survives",
+      "start": 20.585,
+      "end": 21.061
+    },
+    {
+      "text": "unless",
+      "start": 21.131,
+      "end": 21.409
+    },
+    {
+      "text": "it's",
+      "start": 21.444,
+      "end": 21.56
+    },
+    {
+      "text": "explicitly",
+      "start": 21.607,
+      "end": 22.199
+    },
+    {
+      "text": "named.",
+      "start": 22.268,
+      "end": 22.826
+    },
+    {
+      "text": "Second,",
+      "start": 23.337,
+      "end": 23.917
+    },
+    {
+      "text": "every",
+      "start": 24.033,
+      "end": 24.323
+    },
+    {
+      "text": "command",
+      "start": 24.37,
+      "end": 24.718
+    },
+    {
+      "text": "is",
+      "start": 24.776,
+      "end": 24.846
+    },
+    {
+      "text": "screened",
+      "start": 24.892,
+      "end": 25.275
+    },
+    {
+      "text": "before",
+      "start": 25.333,
+      "end": 25.6
+    },
+    {
+      "text": "it",
+      "start": 25.647,
+      "end": 25.705
+    },
+    {
+      "text": "runs:",
+      "start": 25.751,
+      "end": 26.367
+    },
+    {
+      "text": "destructive",
+      "start": 26.75,
+      "end": 27.307
+    },
+    {
+      "text": "patterns,",
+      "start": 27.342,
+      "end": 27.957
+    },
+    {
+      "text": "downloads",
+      "start": 28.131,
+      "end": 28.677
+    },
+    {
+      "text": "piped",
+      "start": 28.735,
+      "end": 29.002
+    },
+    {
+      "text": "into",
+      "start": 29.025,
+      "end": 29.176
+    },
+    {
+      "text": "a",
+      "start": 29.258,
+      "end": 29.281
+    },
+    {
+      "text": "shell,",
+      "start": 29.339,
+      "end": 29.861
+    },
+    {
+      "text": "exfiltration",
+      "start": 30.07,
+      "end": 30.848
+    },
+    {
+      "text": "tricks",
+      "start": 30.906,
+      "end": 31.185
+    },
+    {
+      "text": "like",
+      "start": 31.231,
+      "end": 31.405
+    },
+    {
+      "text": "DNS",
+      "start": 31.452,
+      "end": 31.846
+    },
+    {
+      "text": "tunneling",
+      "start": 31.916,
+      "end": 32.346
+    },
+    {
+      "text": "and",
+      "start": 32.415,
+      "end": 32.543
+    },
+    {
+      "text": "netcat",
+      "start": 32.613,
+      "end": 32.996
+    },
+    {
+      "text": "pipes,",
+      "start": 33.065,
+      "end": 33.611
+    },
+    {
+      "text": "reads",
+      "start": 33.994,
+      "end": 34.296
+    },
+    {
+      "text": "of",
+      "start": 34.331,
+      "end": 34.389
+    },
+    {
+      "text": "sensitive",
+      "start": 34.447,
+      "end": 34.923
+    },
+    {
+      "text": "paths",
+      "start": 34.969,
+      "end": 35.376
+    },
+    {
+      "text": "like",
+      "start": 35.445,
+      "end": 35.608
+    },
+    {
+      "text": "your",
+      "start": 35.643,
+      "end": 35.782
+    },
+    {
+      "text": "SSH",
+      "start": 35.852,
+      "end": 36.397
+    },
+    {
+      "text": "keys",
+      "start": 36.479,
+      "end": 36.897
+    },
+    {
+      "text": "—",
+      "start": 37.071,
+      "end": 37.268
+    },
+    {
+      "text": "refused.",
+      "start": 37.361,
+      "end": 38.104
+    },
+    {
+      "text": "Third,",
+      "start": 38.708,
+      "end": 39.207
+    },
+    {
+      "text": "the",
+      "start": 39.277,
+      "end": 39.381
+    },
+    {
+      "text": "output",
+      "start": 39.462,
+      "end": 39.834
+    },
+    {
+      "text": "comes",
+      "start": 39.892,
+      "end": 40.113
+    },
+    {
+      "text": "back",
+      "start": 40.159,
+      "end": 40.345
+    },
+    {
+      "text": "through",
+      "start": 40.391,
+      "end": 40.612
+    },
+    {
+      "text": "a",
+      "start": 40.635,
+      "end": 40.658
+    },
+    {
+      "text": "leak",
+      "start": 40.728,
+      "end": 40.914
+    },
+    {
+      "text": "detector,",
+      "start": 40.983,
+      "end": 41.645
+    },
+    {
+      "text": "so",
+      "start": 41.819,
+      "end": 41.959
+    },
+    {
+      "text": "a",
+      "start": 42.028,
+      "end": 42.051
+    },
+    {
+      "text": "stray",
+      "start": 42.098,
+      "end": 42.388
+    },
+    {
+      "text": "secret",
+      "start": 42.469,
+      "end": 42.853
+    },
+    {
+      "text": "in",
+      "start": 42.911,
+      "end": 42.98
+    },
+    {
+      "text": "a",
+      "start": 43.027,
+      "end": 43.05
+    },
+    {
+      "text": "log",
+      "start": 43.12,
+      "end": 43.41
+    },
+    {
+      "text": "never",
+      "start": 43.526,
+      "end": 43.781
+    },
+    {
+      "text": "reaches",
+      "start": 43.851,
+      "end": 44.176
+    },
+    {
+      "text": "the",
+      "start": 44.223,
+      "end": 44.292
+    },
+    {
+      "text": "model.",
+      "start": 44.35,
+      "end": 44.838
+    },
+    {
+      "text": "And",
+      "start": 45.349,
+      "end": 45.476
+    },
+    {
+      "text": "the",
+      "start": 45.523,
+      "end": 45.592
+    },
+    {
+      "text": "blast",
+      "start": 45.627,
+      "end": 45.906
+    },
+    {
+      "text": "radius",
+      "start": 45.976,
+      "end": 46.312
+    },
+    {
+      "text": "is",
+      "start": 46.37,
+      "end": 46.452
+    },
+    {
+      "text": "yours",
+      "start": 46.51,
+      "end": 46.742
+    },
+    {
+      "text": "to",
+      "start": 46.788,
+      "end": 46.846
+    },
+    {
+      "text": "set:",
+      "start": 46.928,
+      "end": 47.38
+    },
+    {
+      "text": "runtime",
+      "start": 47.659,
+      "end": 48.112
+    },
+    {
+      "text": "profiles",
+      "start": 48.147,
+      "end": 48.669
+    },
+    {
+      "text": "decide",
+      "start": 48.727,
+      "end": 49.099
+    },
+    {
+      "text": "whether",
+      "start": 49.122,
+      "end": 49.331
+    },
+    {
+      "text": "the",
+      "start": 49.377,
+      "end": 49.447
+    },
+    {
+      "text": "agent",
+      "start": 49.517,
+      "end": 49.842
+    },
+    {
+      "text": "touches",
+      "start": 49.877,
+      "end": 50.213
+    },
+    {
+      "text": "a",
+      "start": 50.26,
+      "end": 50.294
+    },
+    {
+      "text": "sandbox",
+      "start": 50.353,
+      "end": 50.887
+    },
+    {
+      "text": "or",
+      "start": 51.003,
+      "end": 51.165
+    },
+    {
+      "text": "a",
+      "start": 51.235,
+      "end": 51.258
+    },
+    {
+      "text": "real",
+      "start": 51.316,
+      "end": 51.537
+    },
+    {
+      "text": "host.",
+      "start": 51.618,
+      "end": 52.117
+    },
+    {
+      "text": "Ask",
+      "start": 52.814,
+      "end": 53.092
+    },
+    {
+      "text": "for",
+      "start": 53.151,
+      "end": 53.232
+    },
+    {
+      "text": "the",
+      "start": 53.278,
+      "end": 53.348
+    },
+    {
+      "text": "disk",
+      "start": 53.383,
+      "end": 53.638
+    },
+    {
+      "text": "usage",
+      "start": 53.708,
+      "end": 54.068
+    },
+    {
+      "text": "from",
+      "start": 54.103,
+      "end": 54.242
+    },
+    {
+      "text": "your",
+      "start": 54.288,
+      "end": 54.404
+    },
+    {
+      "text": "phone.",
+      "start": 54.451,
+      "end": 54.927
+    },
+    {
+      "text": "Convenience",
+      "start": 55.31,
+      "end": 55.902
+    },
+    {
+      "text": "without",
+      "start": 55.937,
+      "end": 56.204
+    },
+    {
+      "text": "the",
+      "start": 56.239,
+      "end": 56.308
+    },
+    {
+      "text": "blast",
+      "start": 56.343,
+      "end": 56.622
+    },
+    {
+      "text": "radius.",
+      "start": 56.692,
+      "end": 57.493
+    }
+  ]
+}

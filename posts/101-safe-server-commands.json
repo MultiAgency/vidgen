@@ -1,0 +1,54 @@
+{
+  "slug": "101-safe-server-commands",
+  "title": "Server Commands From Chat",
+  "tagline": "Ops from your pocket — with seatbelts",
+  "accent": "#14b8a6",
+  "outro": "Convenience without the blast radius.",
+  "script": "Running server commands from a chat app sounds like a security incident waiting to happen. So here's what actually happens when IronClaw runs one. First, the environment: the agent's shell doesn't inherit yours. It's wiped and rebuilt from a short allowlist — no keys, no tokens, no secrets, because nothing survives unless it's explicitly named. Second, every command is screened before it runs: destructive patterns, downloads piped into a shell, exfiltration tricks like DNS tunneling and netcat pipes, reads of sensitive paths like your SSH keys — refused. Third, the output comes back through a leak detector, so a stray secret in a log never reaches the model. And the blast radius is yours to set: runtime profiles decide whether the agent touches a sandbox or a real host. Ask for the disk usage from your phone. Convenience without the blast radius.",
+  "diagram": {
+    "at": 10.2,
+    "nodes": [
+      {
+        "icon": "💬",
+        "label": "command"
+      },
+      {
+        "icon": "🧹",
+        "label": "clean env"
+      },
+      {
+        "icon": "🔍",
+        "label": "screened"
+      },
+      {
+        "icon": "🖥️",
+        "label": "runs"
+      },
+      {
+        "icon": "🕵️",
+        "label": "leak scan"
+      }
+    ]
+  },
+  "voice": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "modelId": "eleven_multilingual_v2",
+    "stability": 0.5,
+    "similarityBoost": 0.75
+  },
+  "fallbackDurationSeconds": 63,
+  "claims": [
+    {
+      "text": "shell wiped and rebuilt from a short allowlist — nothing survives unless named",
+      "source": "crates/lanes/ironclaw_sandbox/src/sandbox_process/credential_firewall.rs"
+    },
+    {
+      "text": "every command screened before it runs — destructive patterns, pipe-to-shell, exfiltration, sensitive paths",
+      "source": "crates/lanes/ironclaw_sandbox/src/validation.rs"
+    },
+    {
+      "text": "output scrubbed of credential shapes before the model sees it",
+      "source": "crates/lanes/ironclaw_sandbox/src/sandbox_process/credential_firewall.rs"
+    }
+  ]
+}

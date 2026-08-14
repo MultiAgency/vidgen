@@ -1,0 +1,590 @@
+{
+  "durationSeconds": 44.629,
+  "words": [
+    {
+      "text": "Three",
+      "start": 0,
+      "end": 0.313
+    },
+    {
+      "text": "a.m.",
+      "start": 0.36,
+      "end": 0.871
+    },
+    {
+      "text": "Something",
+      "start": 1.567,
+      "end": 1.939
+    },
+    {
+      "text": "breaks",
+      "start": 1.997,
+      "end": 2.276
+    },
+    {
+      "text": "on",
+      "start": 2.322,
+      "end": 2.392
+    },
+    {
+      "text": "your",
+      "start": 2.438,
+      "end": 2.566
+    },
+    {
+      "text": "server.",
+      "start": 2.624,
+      "end": 3.158
+    },
+    {
+      "text": "Who",
+      "start": 3.402,
+      "end": 3.576
+    },
+    {
+      "text": "notices",
+      "start": 3.646,
+      "end": 4.087
+    },
+    {
+      "text": "first?",
+      "start": 4.145,
+      "end": 4.69
+    },
+    {
+      "text": "Give",
+      "start": 5.132,
+      "end": 5.364
+    },
+    {
+      "text": "IronClaw",
+      "start": 5.433,
+      "end": 5.956
+    },
+    {
+      "text": "the",
+      "start": 6.014,
+      "end": 6.084
+    },
+    {
+      "text": "night",
+      "start": 6.153,
+      "end": 6.351
+    },
+    {
+      "text": "shift.",
+      "start": 6.385,
+      "end": 6.896
+    },
+    {
+      "text": "A",
+      "start": 7.07,
+      "end": 7.152
+    },
+    {
+      "text": "routine",
+      "start": 7.233,
+      "end": 7.686
+    },
+    {
+      "text": "runs",
+      "start": 7.732,
+      "end": 7.976
+    },
+    {
+      "text": "on",
+      "start": 8.022,
+      "end": 8.092
+    },
+    {
+      "text": "whatever",
+      "start": 8.127,
+      "end": 8.429
+    },
+    {
+      "text": "schedule",
+      "start": 8.475,
+      "end": 8.893
+    },
+    {
+      "text": "you",
+      "start": 8.94,
+      "end": 9.021
+    },
+    {
+      "text": "set",
+      "start": 9.091,
+      "end": 9.392
+    },
+    {
+      "text": "—",
+      "start": 9.567,
+      "end": 9.625
+    },
+    {
+      "text": "every",
+      "start": 9.903,
+      "end": 10.159
+    },
+    {
+      "text": "five",
+      "start": 10.217,
+      "end": 10.472
+    },
+    {
+      "text": "minutes,",
+      "start": 10.507,
+      "end": 10.832
+    },
+    {
+      "text": "if",
+      "start": 10.855,
+      "end": 10.937
+    },
+    {
+      "text": "you",
+      "start": 10.971,
+      "end": 11.053
+    },
+    {
+      "text": "like.",
+      "start": 11.111,
+      "end": 11.517
+    },
+    {
+      "text": "Each",
+      "start": 12.121,
+      "end": 12.353
+    },
+    {
+      "text": "run,",
+      "start": 12.411,
+      "end": 12.713
+    },
+    {
+      "text": "your",
+      "start": 12.783,
+      "end": 12.933
+    },
+    {
+      "text": "agent",
+      "start": 12.992,
+      "end": 13.328
+    },
+    {
+      "text": "works",
+      "start": 13.386,
+      "end": 13.665
+    },
+    {
+      "text": "through",
+      "start": 13.7,
+      "end": 13.932
+    },
+    {
+      "text": "your",
+      "start": 13.967,
+      "end": 14.083
+    },
+    {
+      "text": "checklist:",
+      "start": 14.141,
+      "end": 14.791
+    },
+    {
+      "text": "disk,",
+      "start": 15,
+      "end": 15.476
+    },
+    {
+      "text": "memory,",
+      "start": 15.592,
+      "end": 16.114
+    },
+    {
+      "text": "processes,",
+      "start": 16.184,
+      "end": 16.834
+    },
+    {
+      "text": "logs",
+      "start": 16.927,
+      "end": 17.299
+    },
+    {
+      "text": "—",
+      "start": 17.45,
+      "end": 17.519
+    },
+    {
+      "text": "real",
+      "start": 17.693,
+      "end": 17.96
+    },
+    {
+      "text": "shell",
+      "start": 18.03,
+      "end": 18.274
+    },
+    {
+      "text": "commands",
+      "start": 18.344,
+      "end": 18.785
+    },
+    {
+      "text": "on",
+      "start": 18.843,
+      "end": 18.924
+    },
+    {
+      "text": "the",
+      "start": 18.959,
+      "end": 19.029
+    },
+    {
+      "text": "machine",
+      "start": 19.063,
+      "end": 19.412
+    },
+    {
+      "text": "you've",
+      "start": 19.446,
+      "end": 19.609
+    },
+    {
+      "text": "pointed",
+      "start": 19.644,
+      "end": 19.969
+    },
+    {
+      "text": "it",
+      "start": 20.015,
+      "end": 20.097
+    },
+    {
+      "text": "at;",
+      "start": 20.155,
+      "end": 20.48
+    },
+    {
+      "text": "sandbox",
+      "start": 21.176,
+      "end": 21.734
+    },
+    {
+      "text": "or",
+      "start": 21.803,
+      "end": 21.919
+    },
+    {
+      "text": "host",
+      "start": 22.001,
+      "end": 22.291
+    },
+    {
+      "text": "is",
+      "start": 22.349,
+      "end": 22.442
+    },
+    {
+      "text": "your",
+      "start": 22.488,
+      "end": 22.604
+    },
+    {
+      "text": "runtime",
+      "start": 22.639,
+      "end": 23.069
+    },
+    {
+      "text": "profile",
+      "start": 23.104,
+      "end": 23.556
+    },
+    {
+      "text": "to",
+      "start": 23.591,
+      "end": 23.649
+    },
+    {
+      "text": "choose.",
+      "start": 23.719,
+      "end": 24.323
+    },
+    {
+      "text": "Nothing",
+      "start": 24.764,
+      "end": 25.042
+    },
+    {
+      "text": "wrong?",
+      "start": 25.089,
+      "end": 25.542
+    },
+    {
+      "text": "It",
+      "start": 25.786,
+      "end": 25.925
+    },
+    {
+      "text": "stays",
+      "start": 25.971,
+      "end": 26.25
+    },
+    {
+      "text": "quiet",
+      "start": 26.308,
+      "end": 26.679
+    },
+    {
+      "text": "—",
+      "start": 26.796,
+      "end": 26.842
+    },
+    {
+      "text": "you",
+      "start": 26.958,
+      "end": 27.051
+    },
+    {
+      "text": "told",
+      "start": 27.121,
+      "end": 27.306
+    },
+    {
+      "text": "it",
+      "start": 27.353,
+      "end": 27.423
+    },
+    {
+      "text": "to.",
+      "start": 27.457,
+      "end": 27.817
+    },
+    {
+      "text": "But",
+      "start": 28.63,
+      "end": 28.769
+    },
+    {
+      "text": "when",
+      "start": 28.804,
+      "end": 28.932
+    },
+    {
+      "text": "a",
+      "start": 28.978,
+      "end": 29.001
+    },
+    {
+      "text": "check",
+      "start": 29.06,
+      "end": 29.303
+    },
+    {
+      "text": "fails,",
+      "start": 29.373,
+      "end": 29.826
+    },
+    {
+      "text": "it",
+      "start": 29.884,
+      "end": 30
+    },
+    {
+      "text": "digs",
+      "start": 30.046,
+      "end": 30.279
+    },
+    {
+      "text": "in,",
+      "start": 30.337,
+      "end": 30.674
+    },
+    {
+      "text": "gathers",
+      "start": 30.743,
+      "end": 31.103
+    },
+    {
+      "text": "the",
+      "start": 31.15,
+      "end": 31.219
+    },
+    {
+      "text": "evidence,",
+      "start": 31.289,
+      "end": 31.777
+    },
+    {
+      "text": "and",
+      "start": 31.811,
+      "end": 31.939
+    },
+    {
+      "text": "delivers",
+      "start": 31.997,
+      "end": 32.311
+    },
+    {
+      "text": "the",
+      "start": 32.346,
+      "end": 32.415
+    },
+    {
+      "text": "report",
+      "start": 32.462,
+      "end": 32.798
+    },
+    {
+      "text": "to",
+      "start": 32.833,
+      "end": 32.88
+    },
+    {
+      "text": "your",
+      "start": 32.949,
+      "end": 33.089
+    },
+    {
+      "text": "chat:",
+      "start": 33.147,
+      "end": 33.681
+    },
+    {
+      "text": "what",
+      "start": 34.122,
+      "end": 34.319
+    },
+    {
+      "text": "it",
+      "start": 34.377,
+      "end": 34.459
+    },
+    {
+      "text": "found,",
+      "start": 34.528,
+      "end": 35.004
+    },
+    {
+      "text": "where,",
+      "start": 35.12,
+      "end": 35.666
+    },
+    {
+      "text": "and",
+      "start": 35.782,
+      "end": 35.921
+    },
+    {
+      "text": "the",
+      "start": 35.968,
+      "end": 36.038
+    },
+    {
+      "text": "likely",
+      "start": 36.096,
+      "end": 36.397
+    },
+    {
+      "text": "cause.",
+      "start": 36.467,
+      "end": 37.048
+    },
+    {
+      "text": "So",
+      "start": 37.651,
+      "end": 37.791
+    },
+    {
+      "text": "the",
+      "start": 37.837,
+      "end": 37.907
+    },
+    {
+      "text": "first",
+      "start": 37.965,
+      "end": 38.197
+    },
+    {
+      "text": "thing",
+      "start": 38.22,
+      "end": 38.36
+    },
+    {
+      "text": "you",
+      "start": 38.406,
+      "end": 38.487
+    },
+    {
+      "text": "see",
+      "start": 38.557,
+      "end": 38.812
+    },
+    {
+      "text": "isn't",
+      "start": 38.882,
+      "end": 39.195
+    },
+    {
+      "text": "an",
+      "start": 39.242,
+      "end": 39.312
+    },
+    {
+      "text": "alarm",
+      "start": 39.358,
+      "end": 39.741
+    },
+    {
+      "text": "—",
+      "start": 39.915,
+      "end": 39.973
+    },
+    {
+      "text": "it's",
+      "start": 40.252,
+      "end": 40.438
+    },
+    {
+      "text": "the",
+      "start": 40.473,
+      "end": 40.554
+    },
+    {
+      "text": "investigation.",
+      "start": 40.612,
+      "end": 41.575
+    },
+    {
+      "text": "Wake",
+      "start": 42.086,
+      "end": 42.353
+    },
+    {
+      "text": "up",
+      "start": 42.388,
+      "end": 42.481
+    },
+    {
+      "text": "to",
+      "start": 42.527,
+      "end": 42.586
+    },
+    {
+      "text": "answers,",
+      "start": 42.667,
+      "end": 43.317
+    },
+    {
+      "text": "not",
+      "start": 43.526,
+      "end": 43.7
+    },
+    {
+      "text": "alarms.",
+      "start": 43.747,
+      "end": 44.629
+    }
+  ]
+}

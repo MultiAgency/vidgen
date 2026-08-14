@@ -1,0 +1,530 @@
+{
+  "durationSeconds": 39.985,
+  "words": [
+    {
+      "text": "Ten",
+      "start": 0,
+      "end": 0.29
+    },
+    {
+      "text": "open",
+      "start": 0.383,
+      "end": 0.673
+    },
+    {
+      "text": "pull",
+      "start": 0.743,
+      "end": 0.929
+    },
+    {
+      "text": "requests,",
+      "start": 0.998,
+      "end": 1.66
+    },
+    {
+      "text": "and",
+      "start": 1.788,
+      "end": 1.916
+    },
+    {
+      "text": "your",
+      "start": 1.974,
+      "end": 2.09
+    },
+    {
+      "text": "morning",
+      "start": 2.136,
+      "end": 2.403
+    },
+    {
+      "text": "disappears",
+      "start": 2.45,
+      "end": 2.949
+    },
+    {
+      "text": "into",
+      "start": 2.995,
+      "end": 3.158
+    },
+    {
+      "text": "tabs.",
+      "start": 3.228,
+      "end": 3.831
+    },
+    {
+      "text": "Here's",
+      "start": 4.11,
+      "end": 4.389
+    },
+    {
+      "text": "the",
+      "start": 4.423,
+      "end": 4.505
+    },
+    {
+      "text": "IronClaw",
+      "start": 4.586,
+      "end": 5.062
+    },
+    {
+      "text": "version.",
+      "start": 5.12,
+      "end": 5.642
+    },
+    {
+      "text": "A",
+      "start": 6.026,
+      "end": 6.107
+    },
+    {
+      "text": "scheduled",
+      "start": 6.177,
+      "end": 6.606
+    },
+    {
+      "text": "routine",
+      "start": 6.641,
+      "end": 7.047
+    },
+    {
+      "text": "fires",
+      "start": 7.094,
+      "end": 7.477
+    },
+    {
+      "text": "before",
+      "start": 7.523,
+      "end": 7.802
+    },
+    {
+      "text": "you're",
+      "start": 7.837,
+      "end": 8.022
+    },
+    {
+      "text": "up.",
+      "start": 8.069,
+      "end": 8.452
+    },
+    {
+      "text": "Your",
+      "start": 8.963,
+      "end": 9.149
+    },
+    {
+      "text": "agent",
+      "start": 9.218,
+      "end": 9.543
+    },
+    {
+      "text": "pulls",
+      "start": 9.59,
+      "end": 9.868
+    },
+    {
+      "text": "the",
+      "start": 9.927,
+      "end": 9.996
+    },
+    {
+      "text": "list",
+      "start": 10.043,
+      "end": 10.252
+    },
+    {
+      "text": "of",
+      "start": 10.31,
+      "end": 10.368
+    },
+    {
+      "text": "every",
+      "start": 10.437,
+      "end": 10.704
+    },
+    {
+      "text": "open",
+      "start": 10.774,
+      "end": 11.053
+    },
+    {
+      "text": "PR,",
+      "start": 11.134,
+      "end": 11.738
+    },
+    {
+      "text": "then",
+      "start": 11.865,
+      "end": 12.051
+    },
+    {
+      "text": "works",
+      "start": 12.121,
+      "end": 12.399
+    },
+    {
+      "text": "through",
+      "start": 12.423,
+      "end": 12.655
+    },
+    {
+      "text": "them",
+      "start": 12.69,
+      "end": 12.817
+    },
+    {
+      "text": "one",
+      "start": 12.887,
+      "end": 13.061
+    },
+    {
+      "text": "by",
+      "start": 13.096,
+      "end": 13.235
+    },
+    {
+      "text": "one:",
+      "start": 13.328,
+      "end": 13.758
+    },
+    {
+      "text": "the",
+      "start": 14.141,
+      "end": 14.245
+    },
+    {
+      "text": "diff,",
+      "start": 14.303,
+      "end": 14.756
+    },
+    {
+      "text": "the",
+      "start": 14.872,
+      "end": 14.977
+    },
+    {
+      "text": "changed",
+      "start": 15.023,
+      "end": 15.383
+    },
+    {
+      "text": "files,",
+      "start": 15.453,
+      "end": 15.94
+    },
+    {
+      "text": "the",
+      "start": 16.022,
+      "end": 16.126
+    },
+    {
+      "text": "review",
+      "start": 16.196,
+      "end": 16.463
+    },
+    {
+      "text": "threads,",
+      "start": 16.521,
+      "end": 17.008
+    },
+    {
+      "text": "the",
+      "start": 17.183,
+      "end": 17.287
+    },
+    {
+      "text": "CI",
+      "start": 17.345,
+      "end": 17.647
+    },
+    {
+      "text": "status",
+      "start": 17.74,
+      "end": 18.227
+    },
+    {
+      "text": "—",
+      "start": 18.32,
+      "end": 18.367
+    },
+    {
+      "text": "every",
+      "start": 18.518,
+      "end": 18.843
+    },
+    {
+      "text": "check,",
+      "start": 18.901,
+      "end": 19.33
+    },
+    {
+      "text": "every",
+      "start": 19.458,
+      "end": 19.76
+    },
+    {
+      "text": "unresolved",
+      "start": 19.83,
+      "end": 20.433
+    },
+    {
+      "text": "comment.",
+      "start": 20.48,
+      "end": 21.025
+    },
+    {
+      "text": "Each",
+      "start": 21.536,
+      "end": 21.769
+    },
+    {
+      "text": "PR",
+      "start": 21.827,
+      "end": 22.163
+    },
+    {
+      "text": "gets",
+      "start": 22.233,
+      "end": 22.407
+    },
+    {
+      "text": "a",
+      "start": 22.442,
+      "end": 22.477
+    },
+    {
+      "text": "verdict:",
+      "start": 22.535,
+      "end": 23.104
+    },
+    {
+      "text": "ready",
+      "start": 23.278,
+      "end": 23.51
+    },
+    {
+      "text": "to",
+      "start": 23.556,
+      "end": 23.626
+    },
+    {
+      "text": "merge,",
+      "start": 23.707,
+      "end": 24.195
+    },
+    {
+      "text": "needs",
+      "start": 24.346,
+      "end": 24.648
+    },
+    {
+      "text": "changes,",
+      "start": 24.706,
+      "end": 25.263
+    },
+    {
+      "text": "or",
+      "start": 25.333,
+      "end": 25.484
+    },
+    {
+      "text": "blocked",
+      "start": 25.542,
+      "end": 25.913
+    },
+    {
+      "text": "—",
+      "start": 25.995,
+      "end": 26.099
+    },
+    {
+      "text": "and",
+      "start": 26.169,
+      "end": 26.378
+    },
+    {
+      "text": "why.",
+      "start": 26.447,
+      "end": 26.993
+    },
+    {
+      "text": "Then",
+      "start": 27.376,
+      "end": 27.574
+    },
+    {
+      "text": "it",
+      "start": 27.632,
+      "end": 27.701
+    },
+    {
+      "text": "writes",
+      "start": 27.736,
+      "end": 28.015
+    },
+    {
+      "text": "one",
+      "start": 28.096,
+      "end": 28.328
+    },
+    {
+      "text": "digest,",
+      "start": 28.375,
+      "end": 29.036
+    },
+    {
+      "text": "ranked",
+      "start": 29.187,
+      "end": 29.478
+    },
+    {
+      "text": "by",
+      "start": 29.524,
+      "end": 29.64
+    },
+    {
+      "text": "what",
+      "start": 29.698,
+      "end": 29.849
+    },
+    {
+      "text": "needs",
+      "start": 29.895,
+      "end": 30.093
+    },
+    {
+      "text": "you",
+      "start": 30.139,
+      "end": 30.221
+    },
+    {
+      "text": "first,",
+      "start": 30.302,
+      "end": 30.825
+    },
+    {
+      "text": "and",
+      "start": 30.941,
+      "end": 31.092
+    },
+    {
+      "text": "delivers",
+      "start": 31.138,
+      "end": 31.475
+    },
+    {
+      "text": "it",
+      "start": 31.521,
+      "end": 31.602
+    },
+    {
+      "text": "to",
+      "start": 31.626,
+      "end": 31.672
+    },
+    {
+      "text": "your",
+      "start": 31.73,
+      "end": 31.858
+    },
+    {
+      "text": "Slack",
+      "start": 31.916,
+      "end": 32.218
+    },
+    {
+      "text": "or",
+      "start": 32.299,
+      "end": 32.438
+    },
+    {
+      "text": "Telegram",
+      "start": 32.496,
+      "end": 32.949
+    },
+    {
+      "text": "before",
+      "start": 32.996,
+      "end": 33.309
+    },
+    {
+      "text": "your",
+      "start": 33.356,
+      "end": 33.495
+    },
+    {
+      "text": "coffee's",
+      "start": 33.553,
+      "end": 33.924
+    },
+    {
+      "text": "done.",
+      "start": 33.971,
+      "end": 34.4
+    },
+    {
+      "text": "You",
+      "start": 34.911,
+      "end": 35.051
+    },
+    {
+      "text": "open",
+      "start": 35.143,
+      "end": 35.387
+    },
+    {
+      "text": "one",
+      "start": 35.457,
+      "end": 35.619
+    },
+    {
+      "text": "message,",
+      "start": 35.654,
+      "end": 36.142
+    },
+    {
+      "text": "not",
+      "start": 36.235,
+      "end": 36.397
+    },
+    {
+      "text": "ten",
+      "start": 36.444,
+      "end": 36.641
+    },
+    {
+      "text": "tabs.",
+      "start": 36.711,
+      "end": 37.256
+    },
+    {
+      "text": "Review",
+      "start": 37.582,
+      "end": 37.907
+    },
+    {
+      "text": "the",
+      "start": 37.965,
+      "end": 38.034
+    },
+    {
+      "text": "verdicts,",
+      "start": 38.092,
+      "end": 38.777
+    },
+    {
+      "text": "not",
+      "start": 38.893,
+      "end": 39.068
+    },
+    {
+      "text": "the",
+      "start": 39.102,
+      "end": 39.172
+    },
+    {
+      "text": "diffs.",
+      "start": 39.242,
+      "end": 39.985
+    }
+  ]
+}
