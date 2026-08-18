@@ -1,7 +1,7 @@
 {
   "name": "ironclaw-video-kit",
   "version": "1.0.0",
-  "description": "IronClaw creator video kit \u2014 animated mascot, ElevenLabs voiceover, demo-footage compositing",
+  "description": "IronClaw creator video kit — animated mascot, ElevenLabs voiceover, demo-footage compositing",
   "private": true,
   "license": "MIT OR Apache-2.0",
   "dependencies": {
@@ -20,6 +20,7 @@
   },
   "scripts": {
     "dev": "remotion studio",
+    "new": "node scripts/new.mjs",
     "voiceover": "node --env-file-if-exists=.env scripts/voiceover.mjs",
     "voiceover:all": "node --env-file-if-exists=.env scripts/voiceover-all.mjs",
     "poses": "python3 scripts/make-poses.py",
